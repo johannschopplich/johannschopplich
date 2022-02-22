@@ -1,0 +1,25 @@
+{
+  "name": "johannschopplich",
+  "version": "0.0.0",
+  "description": "Johann Schopplich is a web developer, designer and pharmacist prior to that",
+  "homepage": "https://github.com/johannschopplich/johannschopplich#readme",
+  "bugs": {
+    "url": "https://github.com/johannschopplich/johannschopplich/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johannschopplich/johannschopplich.git"
+  },
+  "license": "MIT",
+  "author": "Johann Schopplich <pkg@johannschopplich.com>",
+  "main": "index.js",
+  "bin": {
+    "johannschopplich": "./index.cjs"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "open": "^8.4.0"
+  }
+}
