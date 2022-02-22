@@ -18,6 +18,6 @@ Photography is a passion of mine. Funnily enough, one of my favorite photos was 
 <details>
   <summary>🌁 Storebæltsforbindelsen, 2020</summary>
 
-  ![Great Belt Fixed Link](./.github/johann-schopplich-great-belt-bridge-2020.jpg)
+  <img src="https://raw.githubusercontent.com/johannschopplich/johannschopplich/main/.github/johann-schopplich-great-belt-bridge-2020.jpg" width="50%">
 
 </details>
