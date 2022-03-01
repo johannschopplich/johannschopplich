@@ -1,5 +1,5 @@
 [me]: https://johannschopplich.com
-[photography]: https://johannschopplich.com
+[photography]: https://johannschopplich.com/en/photography
 
 <h2>
   <samp>
