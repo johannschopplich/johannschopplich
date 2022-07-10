@@ -14,7 +14,7 @@
 
 I am a web developer/designer and pharmacist prior to that. Turning passion into profession was one of my life's best decisions.
 
-### Projects 🛠
+### Projects
 
 My current focus is development experience for Kirby and Nuxt, and how it can help to achieve increased productivity.
 
