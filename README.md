@@ -35,11 +35,11 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [kirby-writer-marks](https://github.com/johannschopplich/kirby-writer-marks): Custom marks for Kirby's writer field – footnote mark included
 - [kirby-highlighter](https://github.com/johannschopplich/kirby-highlighter): 🌐 Server-side syntax highlighting for the Kirby code block & KirbyText
 
-### Bundlers
+#### Bundlers
 
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
 
-### Libraries
+#### Libraries
 
 - [uncreate](https://github.com/johannschopplich/uncreate): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
 - [loadeer](https://github.com/johannschopplich/loadeer): 🦌 Tiny, performant, SEO-friendly lazy loading library
