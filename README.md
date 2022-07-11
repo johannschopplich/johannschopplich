@@ -54,7 +54,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
 - [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
 - [plainkit-hashed-assets](https://github.com/johannschopplich/plainkit-hashed-assets): 🐭 Kirby's plain kit, but with with Sass, esbuild and asset hashing
-- [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 Starter — visual deployment indicator & more
+- [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter — visual deployment indicator & more
 
 #### Open Source Websites & Apps
 
