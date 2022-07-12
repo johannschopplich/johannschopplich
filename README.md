@@ -23,6 +23,17 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Nuxt 3 module for Kirby's Query Language API
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
 
+#### Libraries
+
+- [uncreate](https://github.com/johannschopplich/uncreate): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
+- [loadeer](https://github.com/johannschopplich/loadeer): 🦌 Tiny, performant, SEO-friendly lazy loading library
+- [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
+- [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
+
+#### Bundlers
+
+- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
+
 #### Kirby Plugins
 
 - [kirby-blurry-placeholder](https://github.com/johannschopplich/kirby-blurry-placeholder): 🖼 Blurry image placeholders and lazy loading for better UX
@@ -34,17 +45,6 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
 - [kirby-writer-marks](https://github.com/johannschopplich/kirby-writer-marks): Custom marks for Kirby's writer field – footnote mark included
 - [kirby-highlighter](https://github.com/johannschopplich/kirby-highlighter): 🌐 Server-side syntax highlighting for the Kirby code block & KirbyText
-
-#### Bundlers
-
-- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
-
-#### Libraries
-
-- [uncreate](https://github.com/johannschopplich/uncreate): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
-- [loadeer](https://github.com/johannschopplich/loadeer): 🦌 Tiny, performant, SEO-friendly lazy loading library
-- [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
-- [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
 
 #### Demos / Templates / App Starters
 
