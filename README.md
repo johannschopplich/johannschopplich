@@ -30,8 +30,9 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
 - [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
 
-#### Bundlers
+#### Tools & Bundlers
 
+- [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
 
 #### Kirby Plugins
