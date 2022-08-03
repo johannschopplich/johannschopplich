@@ -22,6 +22,8 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 - [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Nuxt 3 module for Kirby's Query Language API
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
+- [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
+- [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 Module for @leanera/vue-i18n
 
 #### Libraries
 
@@ -29,7 +31,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [loadeer](https://github.com/johannschopplich/loadeer): 🦌 Tiny, performant, SEO-friendly lazy loading library
 - [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
 - [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
-- [duecss](https://github.com/johannschopplich/duecss): 🧶 Minimal CSS framework built upon & extended by UnoCSS 
+- [duecss](https://github.com/johannschopplich/duecss): 🧶 Minimal CSS framework built upon & extended by UnoCSS
 
 #### CLI Tools
 
