@@ -23,7 +23,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Nuxt 3 module for Kirby's Query Language API
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
-- [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for @leanera/vue-i18n with SSR support
+- [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for @leanera/vue-i18n
 
 #### Libraries
 
