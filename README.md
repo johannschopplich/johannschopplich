@@ -62,6 +62,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 #### Open Source Websites & Apps
 
+- [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
 - [realtroll.de](https://github.com/johannschopplich/realtroll.de): 🎮 Website für den Spieleentwickler real Troll
 - [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
 - [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
