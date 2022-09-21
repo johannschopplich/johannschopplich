@@ -32,6 +32,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
 - [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
 - [duecss](https://github.com/johannschopplich/duecss): 🧶 Minimal CSS framework built upon & extended by UnoCSS
+- [kirby-fest](https://github.com/johannschopplich/kirby-fest): 🎊 A Collection of TypeScript types for the Kirby CMS
 
 #### CLI Tools
 
@@ -41,7 +42,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 #### Kirby Plugins
 
 - [kirby-blurry-placeholder](https://github.com/johannschopplich/kirby-blurry-placeholder): 🖼 Blurry image placeholders and lazy loading for better UX
-- [kirby-extended](https://github.com/johannschopplich/kirby-extended): 🍬 Dotenv support, meta tags generator, sitemaps & more
+- [kirby-helpers](https://github.com/johannschopplich/kirby-helpers): 🍬 Dotenv support, meta tags generation, sitemaps and more!
 - [kirby-hashed-assets](https://github.com/johannschopplich/kirby-hashed-assets): 🛷 File name hashes support for `css()` and `js()` helpers. Without rewrite rules!
 - [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Copy commonly used characters to your clipboard
 - [kirby-vite](https://github.com/johannschopplich/kirby-vite): ⚡️ Vite integration for Kirby CMS
