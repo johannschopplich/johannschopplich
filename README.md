@@ -54,7 +54,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 #### Demos / Templates / App Starters
 
 - [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
-- [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Kirby, but headless only – KQL with bearer token, Express-esque middlewares & more 
+- [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Kirby, but headless only – KQL with bearer token, Express-esque middlewares & more
 - [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
 - [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
 - [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
