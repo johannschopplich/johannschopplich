@@ -12,7 +12,7 @@
 
 <br>
 
-I am a web developer/designer and pharmacist prior to that. Turning passion into profession was one of my life's best decisions.
+I am a full stack developer and pharmacist prior to that. Turning passion into profession as a career changer was one of the best decisions of my life.
 
 ### Projects
 
