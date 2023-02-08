@@ -42,11 +42,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 #### Kirby Plugins
 
-##### Features
-
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
-
-##### All
 
 - [kirby-blurry-placeholder](https://github.com/johannschopplich/kirby-blurry-placeholder): 🖼 Blurry image placeholders and lazy loading for better UX
 - [kirby-hashed-assets](https://github.com/johannschopplich/kirby-hashed-assets): 🛷 File name hashes support for `css()` and `js()` helpers. Without rewrite rules!
