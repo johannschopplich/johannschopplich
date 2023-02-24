@@ -24,7 +24,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Nuxt 3 module for Kirby's Query Language API
 - [nuxt-api-party](https://github.com/johannschopplich/nuxt-api-party): 🪅 Nuxt 3 module to securely connect with any API – server proxy & dynamic composable names
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
-- [vue-signals](https://github.com/johannschopplich/vue-signals): 📶 SolidJS-like reactive signals for Vue.js
+- [vue-signals](https://github.com/johannschopplich/vue-signals): 📶 Solid and Angular signals for Vue.js
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 - [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
 
