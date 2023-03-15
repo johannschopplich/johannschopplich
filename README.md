@@ -20,9 +20,10 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 #### Nuxt.js & Vue.js
 
-- [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Nuxt 3 module to natively integrate Plausible analytics
-- [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Nuxt 3 module for Kirby's Query Language API
+- [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integratino for Nuxt 3
+- [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-api-party](https://github.com/johannschopplich/nuxt-api-party): 🪅 Nuxt 3 module to securely connect with any API – server proxy & dynamic composable names
+- [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
 - [vue-signals](https://github.com/johannschopplich/vue-signals): 📶 Solid and Angular signals for Vue.js
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
