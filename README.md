@@ -42,6 +42,22 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
 
+#### Demos / Templates / App Starters
+
+- [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt starter for headless Kirby CMS
+- [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
+- [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
+
+<details>
+  <summary>More</summary>
+
+- [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
+- [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
+- [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
+- [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter – visual deployment indicator & more
+
+</details>
+
 #### Kirby Plugins
 
 - ⭐️ [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
@@ -51,23 +67,13 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [kirby-locked-pages](https://github.com/johannschopplich/kirby-locked-pages): 🔐 Password-protect pages, Panel blueprint included
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
 - [kirby-writer-marks](https://github.com/johannschopplich/kirby-writer-marks): Custom marks for Kirby's writer field – footnote mark included
-- [kirby-highlighter](https://github.com/johannschopplich/kirby-highlighter): 🌐 Server-side syntax highlighting for the Kirby code block & KirbyText
-
-#### Demos / Templates / App Starters
-
-- [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
-- [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Kirby, but headless only – KQL with bearer token, Express-esque middlewares & more
-- [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
-- [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
-- [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
-- [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter – visual deployment indicator & more
 
 #### Open Source Websites & Apps
 
+- [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 - [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
 - [realtroll.de](https://github.com/johannschopplich/realtroll.de): 🎮 Website für den Spieleentwickler real Troll
 - [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
-- [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 
 ### Shot on iPhone 
 
