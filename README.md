@@ -44,7 +44,7 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 #### Demos / Templates / App Starters
 
-- [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt starter for headless Kirby CMS
+- [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt starter for a headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
 - [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
 
