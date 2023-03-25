@@ -44,14 +44,14 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 
 #### Demos / Templates / App Starters
 
-- [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt starter for a headless Kirby CMS
+- [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
+- [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt and KQL starter for your headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
 - [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
 
 <details>
   <summary>More</summary>
 
-- [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
 - [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
 - [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
 - [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter – visual deployment indicator & more
