@@ -3,10 +3,10 @@
 
 <h2>
   <samp>
-    <a href="https://johannschopplich.com">me</a> ·
-    <a href="https://johannschopplich.com/en/photography">photography</a> ·
+    <a href="https://byjohann.link">linktree</a> ·
+    <a href="https://johannschopplich.com">website</a> ·
     <a href="https://johannschopplich.com/en/about">about</a> ·
-    <a href="https://instagram.com/johannschopplich">instagram</a>
+    <a href="https://instagram.com/johannschopplich"> instagram</a>
   </samp>
 </h2>
 
