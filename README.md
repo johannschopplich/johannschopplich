@@ -16,7 +16,11 @@ I am a full stack developer and pharmacist prior to that. Turning passion into p
 
 ### Projects
 
-My current focus is development experience for Kirby and Nuxt, and how it can help to achieve increased productivity.
+My current focus is development experience for Nuxt and Vue, and how it can help to achieve increased productivity.
+
+#### Multi-Framework
+
+- [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 
 #### Nuxt.js & Vue.js
 
@@ -24,14 +28,10 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-api-party](https://github.com/johannschopplich/nuxt-api-party): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
+- [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
-- [vue-signals](https://github.com/johannschopplich/vue-signals): 📶 Solid and Angular signals for Vue.js
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 - [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
-
-#### Multi-Framework
-
-- [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 
 #### Libraries
 
@@ -69,7 +69,6 @@ My current focus is development experience for Kirby and Nuxt, and how it can he
 - [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Copy commonly used characters to your clipboard
 - [kirby-locked-pages](https://github.com/johannschopplich/kirby-locked-pages): 🔐 Password-protect pages, Panel blueprint included
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
-- [kirby-writer-marks](https://github.com/johannschopplich/kirby-writer-marks): Custom marks for Kirby's writer field – footnote mark included
 
 #### Open Source Websites & Apps
 
