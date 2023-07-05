@@ -33,17 +33,17 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 - [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
 
+#### Tooling
+
+- [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
+- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
+
 #### Libraries
 
 - [uncreate](https://github.com/johannschopplich/uncreate): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
 - [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
 - [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
 - [kirby-fest](https://github.com/johannschopplich/kirby-fest): 🎊 A Collection of TypeScript types for the Kirby CMS
-
-#### CLI Tools
-
-- [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
-- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
 
 #### Demos / Templates / App Starters
 
