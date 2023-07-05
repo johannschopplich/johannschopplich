@@ -50,16 +50,7 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 - [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt and KQL starter for your headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
 - [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
-
-<details>
-  <summary>More</summary>
-
-- [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
-- [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
-- [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
-- [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter – visual deployment indicator & more
-
-</details>
+- [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 
 #### Kirby Plugins
 
@@ -70,11 +61,11 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 - [kirby-locked-pages](https://github.com/johannschopplich/kirby-locked-pages): 🔐 Password-protect pages, Panel blueprint included
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
 
-#### Open Source Websites & Apps
+#### Open Source Websites
 
-- [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 - [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
 - [bildhauer-volkmar-kuehn.de](https://github.com/johannschopplich/bildhauer-volkmar-kuehn.de): 🐰 Personal website for German sculpting artist Volkmar Kühn
+- [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
 
 ### Shot on iPhone 
 
