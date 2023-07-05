@@ -25,11 +25,11 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 #### Nuxt.js & Vue.js
 
 - [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt 3
-- [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
+- [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
-- [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
+- [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 - [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
 
