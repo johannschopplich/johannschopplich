@@ -20,13 +20,13 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 
 #### Multi-Framework
 
-- [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
+- [unlazy](https://unlazy.byjohann.dev): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 
 #### Nuxt.js & Vue.js
 
 - [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt 3
-- [nuxt-kql](https://github.com/johannschopplich/nuxt-kql): 🫧 Kirby's Query Language API for Nuxt 3
-- [nuxt-api-party](https://github.com/johannschopplich/nuxt-api-party): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
+- [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt 3
+- [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
@@ -50,11 +50,11 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 - [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt and KQL starter for your headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
 - [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
-- [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
 
 <details>
   <summary>More</summary>
 
+- [kirby-vite-unocss-kit](https://github.com/johannschopplich/kirby-vite-unocss-kit): 🎨 Minimal Vite + UnoCSS + Kirby integration
 - [kirby-vue3-starterkit](https://github.com/johannschopplich/kirby-vue3-starterkit): ✨ Kirby + Vue SPA starter: automatic routing, i18n, SEO and more!
 - [kirby-vue-lightkit](https://github.com/johannschopplich/kirby-vue-lightkit): ⛺️ Minimal Kirby + Vue starter: File-based routing, UnoCSS, SEO & more
 - [nuxt3-starter](https://github.com/johannschopplich/nuxt3-starter): 🌬 Opiniated Nuxt 3 starter – visual deployment indicator & more
@@ -75,8 +75,6 @@ My current focus is development experience for Nuxt and Vue, and how it can help
 - [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 - [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
 - [bildhauer-volkmar-kuehn.de](https://github.com/johannschopplich/bildhauer-volkmar-kuehn.de): 🐰 Personal website for German sculpting artist Volkmar Kühn
-- [realtroll.de](https://github.com/johannschopplich/realtroll.de): 🎮 Website für den Spieleentwickler real Troll
-- [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
 
 ### Shot on iPhone 
 
