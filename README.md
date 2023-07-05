@@ -16,7 +16,7 @@ I am a full stack developer and pharmacist prior to that. Turning passion into p
 
 ### Projects
 
-My current focus is development experience for Nuxt and Vue, and how it can help to achieve increased productivity.
+My current focus is on the Nuxt and Vue development experience and how it can help to increase productivity.
 
 #### Multi-Framework
 
