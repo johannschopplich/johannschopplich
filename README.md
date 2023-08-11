@@ -40,7 +40,7 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 
 #### Libraries
 
-- [uncreate](https://github.com/johannschopplich/uncreate): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
+- [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
 - [animere](https://github.com/johannschopplich/animere): 🍃 CSS-driven scroll-based animations
 - [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
 - [kirby-fest](https://github.com/johannschopplich/kirby-fest): 🎊 A Collection of TypeScript types for the Kirby CMS
