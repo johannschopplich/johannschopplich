@@ -50,7 +50,6 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 - [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt and KQL starter for your headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless Kirby starter – KQL, Express-esque middlewares & more
 - [kirby-nuxt-starterkit](https://github.com/johannschopplich/kirby-nuxt-starterkit): 💚 Kirby's sample site – ported to Nuxt 3 and KirbyQL
-- [wordle-pwa](https://github.com/johannschopplich/wordle-pwa): 🦊 Wordle app to fork and customize for your friends
 
 #### Kirby Plugins
 
