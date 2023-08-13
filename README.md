@@ -6,7 +6,7 @@
     <a href="https://byjohann.link">linktree</a> ·
     <a href="https://johannschopplich.com">website</a> ·
     <a href="https://johannschopplich.com/en/about">about</a> ·
-    <a href="https://www.youtube.com/channel/UC-d57s2cy8V6NUd9_Re-sqw">youtube</a> ·
+    <a href="https://www.youtube.com/watch?v=m6QLRFNEiKk">youtube</a> ·
     <a href="https://instagram.com/johannschopplich">instagram</a>
   </samp>
 </h2>
