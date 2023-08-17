@@ -27,9 +27,9 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 
 - [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt 3
 - [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
+- [nuxt-prepare](https://nuxt-prepare.byjohann.dev): 🦎 Run initialization steps before Nuxt starts
 - [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
-- [vue-unquery](https://github.com/johannschopplich/vue-unquery): 🪺 Lightweight data management for Vue in suspense & non-suspense contexts
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 - [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
@@ -43,7 +43,7 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 
 - [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
 - [unpdf](https://github.com/johannschopplich/unpdf): 📄 Utilities to work with PDFs, like extracting text
-- [unacl](https://github.com/johannschopplich/unacl): 🙅‍♀️🙆‍♂️ Minimal, type-safe and reactive access control
+- [unjwt](https://github.com/johannschopplich/unjwt): 🆓 Easy creation and verification of JWTs for Node.js, browser and workers
 
 #### Demos / Templates / App Starters
 
