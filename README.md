@@ -43,7 +43,7 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 #### Libraries
 
 - [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
-- [unpdf](https://github.com/johannschopplich/unpdf): 📄 Utilities to work with PDFs, like extracting text
+- [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs, like extracting text
 - [unjwt](https://github.com/johannschopplich/unjwt): 🆓 Easy creation and verification of JWTs for Node.js, browser and workers
 
 #### Demos / Templates / App Starters
