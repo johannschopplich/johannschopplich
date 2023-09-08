@@ -31,8 +31,8 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 - [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt 3
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics integration for Nuxt 3
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
-- [@leanera/vue-i18n](https://github.com/leanera/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
-- [@leanera/nuxt-i18n](https://github.com/leanera/nuxt-i18n): 💬 Nuxt 3 module for internationalization w/ locale auto-imports & localized routing
+- [@byjohann/vue-i18n](https://github.com/johannschopplich/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
+- [@byjohann/nuxt-i18n](https://github.com/johannschopplich/nuxt-i18n): 💬 Minimal module for i18n with locale auto-imports & localized routing
 
 #### Tooling
 
