@@ -25,7 +25,7 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 
 #### Nuxt.js & Vue.js
 
-- [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt 3
+- [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt
 - [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🪅 Securely connect with any API in Nuxt – server proxy & dynamic composable names
 - [nuxt-prepare](https://nuxt-prepare.byjohann.dev): 🦎 Run initialization steps at build time
 - [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt
