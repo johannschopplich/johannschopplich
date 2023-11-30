@@ -113,13 +113,6 @@ export const main = (props: Props) => {
 			row-gap: 20px;
 		}
 
-		/* Hide everything in Firefox by default – show fallback instead */
-		@-moz-document url-prefix() {
-			.container {
-				display: none;
-			}
-		}
-	
 		.intro {
 			contain: content;
 			grid-area: 1 / 1 / span 1 / span 6;
@@ -133,11 +126,21 @@ export const main = (props: Props) => {
 				font-size: 22px;
 			}
 		}
+
 		@media (width > ${BP_LARGE}px) {
 			.intro {
 				grid-area: 1 / 4 / span 1 / span 3;
 			}
 		}
+
+		/* Show fallback layout for Firefox */
+		@-moz-document url-prefix() {
+			.container {
+				display: flex !important;
+				align-items: end;
+			}
+		}
+	
 	`;
 
 	const html = /* html */ `
@@ -254,48 +257,5 @@ export const link = (props: Props & { label: string }) => {
 		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
-	});
-};
-
-export const fallback = (props: Props & { width: number }) => {
-	const styles = /* css */ `
-		${shared}
-
-		:root {
-			--size-height: ${props.height};
-			--size-width: ${props.width};
-		}
-
-		.container {
-			display: none;
-		}
-
-		/* Hide everywhere but Firefox */
-		@-moz-document url-prefix() {
-			.container {
-				display: flex;
-				align-items: end;
-			}
-		}
-
-		.intro {
-			font-size: 22px;
-			font-weight: 300;
-		}
-	`;
-
-	const html = /* html */ `
-		<main class="container">
-			<div class="intro">
-				<p>${BODY_COPY}</p>
-			</div>
-		</main>
-	`;
-
-	return svg(styles, html, {
-		width: `${props.width}`,
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`,
-		viewbox: `0 0 ${props.width} ${props.height}`,
 	});
 };
