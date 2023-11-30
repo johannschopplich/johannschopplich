@@ -86,7 +86,7 @@ export const shared = /* css */ `
 	}
 
 	.shine {
-		background-color: var(--color-text);
+		background-color: var(--color-accent);
 		background-image: linear-gradient(-75deg,
 			rgb(0 0 0 / 0) 0%,
 			rgb(255 255 255 / 0.18) 15%,
@@ -224,7 +224,7 @@ export function link(props: Props & { label: string }) {
 
 	const html = /*html*/ `
 		<main class="container">
-			<a class="link shine">
+			<a class="link fade-in">
 				<div>${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
