@@ -2,8 +2,6 @@
 
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
-const BODY_COPY =
-	'Somewhere in between development and design. Formerly a pharmacist. Great to meet!';
 
 interface Props {
 	width?: number;
@@ -70,64 +68,7 @@ export const shared = /* css */ `
 	}
 `;
 
-export const main = (props: Props) => {
-	const styles = /*css*/ `
-		${shared}
-
-		:root {
-			--size-height: ${props.height};
-		}
-
-		.container {
-			align-items: flex-end;
-			grid-template-rows: 1fr auto;
-			row-gap: 20px;
-		}
-
-		/* Hide in Firefox */
-		@-moz-document url-prefix() {
-			.container {
-				display: none;
-			}
-		}
-
-		.intro {
-			contain: content;
-			grid-area: 1 / 1 / span 1 / span 6;
-			font-size: 18px;
-		}
-
-		@media (width > ${BP_MEDIUM}px) {
-			.intro {
-				grid-area: 1 / 3 / span 1 / span 4;
-				font-size: 22px;
-			}
-		}
-
-		/*
-		@media (width > ${BP_LARGE}px) {
-			.intro {
-				grid-area: 1 / 4 / span 1 / span 3;
-			}
-		}
-		*/
-	`;
-
-	const html = /* html */ `
-		<main class="container grid">
-			<article class="intro">
-				<p>${BODY_COPY}</p>
-			</article>
-		</main>
-	`;
-
-	return svg(styles, html, {
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`,
-	});
-};
-
-export const top = (props: Props) => {
+export function top(props: Props) {
 	const styles = /* css */ `
 		${shared}
 
@@ -157,6 +98,7 @@ export const top = (props: Props) => {
 			grid-area: 1 / 4 / span 1 / span 3;
 		}
 
+		/*
 		@media (width > ${BP_MEDIUM}px) {
 			.container > :nth-child(1) {
 				grid-area: 1 / 1 / span 1 / span 2;
@@ -167,7 +109,6 @@ export const top = (props: Props) => {
 			}
 		}
 
-		/*
 		@media (width > ${BP_LARGE}px) {
 			.container > :nth-child(1) {
 				grid-area: 1 / 1 / span 1 / span 3;
@@ -191,16 +132,16 @@ export const top = (props: Props) => {
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
 	});
-};
+}
 
-export const bottom = (props: Props) => {
+export function bottom(props: Props) {
 	return svg('', '', {
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
 	});
-};
+}
 
-export const link = (props: Props & { label: string }) => {
+export function link(props: Props & { label: string }) {
 	const styles = /*css*/ `
 		${shared}
 
@@ -236,60 +177,7 @@ export const link = (props: Props & { label: string }) => {
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
 	});
-};
-
-export const fallback = (props: Props) => {
-	const styles = /* css */ `
-		${shared}
-
-		:root {
-			--size-height: ${props.height};
-		}
-
-		.container {
-			display: none;
-		}
-
-		/* Hide everywhere but Firefox */
-		@-moz-document url-prefix() {
-			.container {
-				display: flex;
-				align-items: end;
-			}
-		}
-
-		.intro {
-			font-size: 22px;
-		}
-
-		@media (width > ${BP_MEDIUM}px) {
-			.intro {
-				font-size: 18px;
-			}
-		}
-
-		@media (width > ${BP_LARGE}px) {
-			.intro {
-				font-size: 14px;
-			}
-		}
-	`;
-
-	const html = /* html */ `
-		<main class="container">
-			<div class="intro">
-				<p>${BODY_COPY}</p>
-			</div>
-		</main>
-	`;
-
-	return svg(styles, html, {
-		width: `${props.width}`,
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`,
-		viewbox: `0 0 ${props.width} ${props.height}`,
-	});
-};
+}
 
 function attr(obj: Record<string, string>) {
 	return Object.entries(obj).reduce(

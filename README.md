@@ -5,21 +5,21 @@
 <a href="https://byjohann.link">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&label=Linktree&theme=dark" label="Visit">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Linktree&theme=light" alt="Visit my link tree" width="100" height="18px" align="left">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Linktree&theme=light" alt="Visit my link tree" width="100" height="20" align="left">
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="">
 <a href="https://johannschopplich.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&label=Website&theme=dark" label="Visit">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Website&theme=light" alt="Visit my website" width="100" height="18px" align="left">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Website&theme=light" alt="Visit my website" width="100" height="20" align="left">
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="">
 <a href="https://www.instagram.com/johannschopplich">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&label=Instagram&theme=dark">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Instagram&theme=light" alt="Visit my Instagram" width="100" height="18" align="left">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&label=Instagram&theme=light" alt="Visit my Instagram" width="100" height="20" align="left">
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="">
@@ -27,6 +27,8 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=bottom&theme=dark">
   <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20" align="left">
 </picture>
+
+Hi, I’m Johann. I work somewhere in between development and design – a JavaScript one-trick pony with an aesthetic sense.
 
 <br>
 

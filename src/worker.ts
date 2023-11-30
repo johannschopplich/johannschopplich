@@ -1,4 +1,4 @@
-import { bottom, fallback, link, main, top } from './renderer.js';
+import { bottom, link, top } from './renderer.js';
 
 const worker: ExportedHandler = {
 	async fetch(request) {
@@ -13,11 +13,7 @@ const worker: ExportedHandler = {
 		} else if (section === 'bottom') {
 			content = bottom({ height: 20, theme });
 		} else if (section === 'link') {
-			content = link({ height: 18, width: 100, label, theme });
-		} else if (section === 'fallback') {
-			content = fallback({ height: 100, width: 420, theme });
-		} else {
-			content = main({ height: 100, theme });
+			content = link({ height: 20, width: 100, label, theme });
 		}
 
 		return new Response(content, {
