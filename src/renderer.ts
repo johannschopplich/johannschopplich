@@ -207,7 +207,7 @@ export function link(props: Props & { index: number; label: string }) {
 		}
 
 		.link__label {
-			animation-delay: ${props.index * 10}s;
+			animation-delay: ${props.index * 5}s;
 		}
 
 		.link__arrow {
