@@ -24,6 +24,11 @@
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="">
 
+<hr>
+
+Hi, I’m Johann. Somewhere in between development and design, formerly a pharmacist.
+Great to meet!
+
 <br>
 
 ### Projects
