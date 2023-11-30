@@ -73,13 +73,6 @@ export const shared = /* css */ `
 		color: var(--color-accent);
 	}
 
-	/* Hide everything in Firefox by default – show fallback instead */
-	@-moz-document url-prefix() {
-		.container {
-			display: none;
-		}
-	}
-
 	.label {
 		contain: content;
 		font-size: 14px;
@@ -140,7 +133,6 @@ export const main = (props: Props) => {
 				align-items: end;
 			}
 		}
-	
 	`;
 
 	const html = /* html */ `
@@ -169,6 +161,13 @@ export const top = (props: Props) => {
 			align-items: center;
 		}
 
+		/* Hide top bar in Firefox */
+		@-moz-document url-prefix() {
+			.container {
+				display: none;
+			}
+		}
+	
 		.container > :nth-child(1) {
 			contain: content;
 			text-align: left;
@@ -221,13 +220,6 @@ export const link = (props: Props & { label: string }) => {
 		:root {
 			--size-height: ${props.height};
 			--size-width: ${props.width};
-		}
-
-		/* Overwrite default, allow this to show in FF */
-		@-moz-document url-prefix() {
-			.container {
-				display: block;
-			}
 		}
 
 		.link {
