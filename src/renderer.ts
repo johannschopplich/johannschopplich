@@ -162,6 +162,21 @@ export function link(props: Props & { label: string }) {
 			font-size: 0.75em;
 			position: relative;
 			inset-block-start: 0.1em;
+			animation-name: rotate;
+			animation-duration: 5s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: infinite;
+			animation-delay: ${Math.random() * 5}s;
+		}
+
+		@keyframes rotate {
+			0% {
+				transform: rotate(0deg);
+			}
+			10%,
+			100% {
+				transform: rotate(360deg);
+			}
 		}
 	`;
 
