@@ -25,7 +25,7 @@
 <img src="data:null;," width="100%" height="0" align="left" alt="">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=bottom&theme=dark">
-  <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20" align="left">
+  <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20">
 </picture>
 
 Hi, I’m Johann. I work somewhere in between development and design – a JavaScript one-trick pony with an aesthetic sense.
