@@ -204,7 +204,7 @@ export function link(props: Props & { index: number; label: string }) {
 			justify-content: start;
 			align-items: center;
 			gap: 3px;
-			animation-delay: ${props.index * 250}ms;
+			animation-delay: ${250 + props.index * 250}ms;
 		}
 
 		.link__arrow {
