@@ -96,7 +96,6 @@ export const main = (props: Props) => {
 
 		:root {
 			--size-height: ${props.height};
-			--size-label-height: 20;
 		}
 
 		.container {
@@ -272,6 +271,12 @@ export const fallback = (props: Props) => {
 		.intro {
 			font-size: 22px;
 			font-weight: 300;
+		}
+
+		@media (width > ${BP_MEDIUM}px) {
+			.intro {
+				font-size: 18px;
+			}
 		}
 	`;
 
