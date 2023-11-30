@@ -220,7 +220,7 @@ export function link(props: Props & { index: number; label: string }) {
 	const html = /*html*/ `
 		<main class="container">
 			<a class="link fade-in">
-				<div>${props.label}</div>
+				<div class="link__label">${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
 		</main>
