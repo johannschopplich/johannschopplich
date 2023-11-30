@@ -204,9 +204,6 @@ export function link(props: Props & { index: number; label: string }) {
 			justify-content: start;
 			align-items: center;
 			gap: 3px;
-		}
-
-		.link__label {
 			animation-delay: ${props.index * 5}s;
 		}
 
@@ -220,7 +217,7 @@ export function link(props: Props & { index: number; label: string }) {
 	const html = /*html*/ `
 		<main class="container">
 			<a class="link fade-in">
-				<div class="link__label">${props.label}</div>
+				<div>${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
 		</main>
