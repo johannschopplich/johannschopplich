@@ -6,6 +6,7 @@ const worker: ExportedHandler = {
 		const theme = (searchParams.get('theme') ?? 'light') as 'light' | 'dark';
 		const section = searchParams.get('section') ?? '';
 		const label = searchParams.get('label') ?? '';
+		const index = Number(searchParams.get('index')) || 0;
 		let content = ':-)';
 
 		if (section === 'top') {
@@ -13,7 +14,7 @@ const worker: ExportedHandler = {
 		} else if (section === 'bottom') {
 			content = bottom({ height: 20, theme });
 		} else if (section === 'link') {
-			content = link({ height: 20, width: 100, label, theme });
+			content = link({ height: 20, width: 100, label, index, theme });
 		}
 
 		return new Response(content, {

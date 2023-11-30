@@ -113,7 +113,8 @@ export const shared = /* css */ `
 		to {
 			background-position: 0%;
 		}
-	}	`;
+	}
+	`;
 
 export function top(props: Props) {
 	const styles = /* css */ `
@@ -190,8 +191,8 @@ export function bottom(props: Props) {
 	});
 }
 
-export function link(props: Props & { label: string }) {
-	const styles = /*css*/ `
+export function link(props: Props & { index: number; label: string }) {
+	const styles = /* css */ `
 		${shared}
 
 		:root {
@@ -205,20 +206,14 @@ export function link(props: Props & { label: string }) {
 			gap: 3px;
 		}
 
+		.link__label {
+			animation-delay: ${props.index * 10}s;
+		}
+
 		.link__arrow {
 			font-size: 0.75em;
 			position: relative;
 			inset-block-start: 0.1em;
-		}
-
-		@keyframes rotate {
-			0% {
-				transform: rotate(0deg);
-			}
-			10%,
-			100% {
-				transform: rotate(360deg);
-			}
 		}
 	`;
 
