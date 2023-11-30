@@ -113,6 +113,13 @@ export const main = (props: Props) => {
 			row-gap: 20px;
 		}
 
+		/* Hide everything in Firefox by default – show fallback instead */
+		@-moz-document url-prefix() {
+			.container {
+				display: none;
+			}
+		}
+	
 		.intro {
 			contain: content;
 			grid-area: 1 / 1 / span 1 / span 6;
