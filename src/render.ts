@@ -75,13 +75,13 @@ export const shared = /* css */ `
 
 	.label {
 		contain: content;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 600;
 	}
 
 	.link {
 		contain: content;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	p {
