@@ -13,7 +13,7 @@ const worker: ExportedHandler = {
 		} else if (section === 'link') {
 			content = link({ height: 18, width: 100, label, theme });
 		} else if (section === 'fallback') {
-			content = fallback({ height: 180, theme });
+			content = fallback({ height: 180, width: 420, theme });
 		} else {
 			content = main({ height: 200, theme });
 		}
