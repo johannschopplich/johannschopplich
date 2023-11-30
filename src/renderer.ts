@@ -136,8 +136,10 @@ export function top(props: Props) {
 
 export function bottom(props: Props) {
 	return svg('', '', {
+		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
+		viewbox: `0 0 ${props.width} ${props.height}`,
 	});
 }
 
