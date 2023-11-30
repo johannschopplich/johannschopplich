@@ -6,7 +6,7 @@ const worker: ExportedHandler = {
 		const theme = (searchParams.get('theme') ?? 'light') as 'light' | 'dark';
 		const section = searchParams.get('section') ?? '';
 		const label = searchParams.get('label') ?? '';
-		const index = Number(searchParams.get('index')) || 0;
+		const index = Number(searchParams.get('i')) || 0;
 		let content = ':-)';
 
 		if (section === 'top') {
