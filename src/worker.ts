@@ -13,9 +13,9 @@ const worker: ExportedHandler = {
 		} else if (section === 'link') {
 			content = link({ height: 18, width: 100, label, theme });
 		} else if (section === 'fallback') {
-			content = fallback({ height: 180, width: 420, theme });
+			content = fallback({ height: 100, width: 420, theme });
 		} else {
-			content = main({ height: 200, theme });
+			content = main({ height: 100, theme });
 		}
 
 		return new Response(content, {
