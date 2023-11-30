@@ -278,6 +278,12 @@ export const fallback = (props: Props) => {
 				font-size: 18px;
 			}
 		}
+
+		@media (width > ${BP_LARGE}px) {
+			.intro {
+				font-size: 14px;
+			}
+		}
 	`;
 
 	const html = /* html */ `
