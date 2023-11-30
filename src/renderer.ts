@@ -66,7 +66,54 @@ export const shared = /* css */ `
 		constrain: content;
 		margin: 0;
 	}
-`;
+
+	.fade-in {
+		will-change: opacity;
+		animation-name: fade-in;
+		animation-fill-mode: both;
+		animation-duration: var(--duration, 1.5s);
+		animation-timing-function: var(--ease, ease-out);
+		animation-delay: var(--delay, 1s);
+	}
+
+	@keyframes fade-in {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+
+	.shine {
+		background-color: var(--color-text);
+		background-image: linear-gradient(-75deg,
+			rgb(0 0 0 / 0) 0%,
+			rgb(255 255 255 / 0.18) 15%,
+			rgb(0 0 0 / 0) 25%
+		);
+		background-size: 200%;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+		text-fill-color: transparent;
+
+		animation-name: shine;
+		animation-duration: 14s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes shine {
+		0% {
+			background-position: 200%;
+		}
+		10% {
+			background-position: 0%;
+		}
+		to {
+			background-position: 0%;
+		}
+	}	`;
 
 export function top(props: Props) {
 	const styles = /* css */ `
@@ -162,11 +209,6 @@ export function link(props: Props & { label: string }) {
 			font-size: 0.75em;
 			position: relative;
 			inset-block-start: 0.1em;
-			animation-name: rotate;
-			animation-duration: 5s;
-			animation-timing-function: ease-in-out;
-			animation-iteration-count: infinite;
-			animation-delay: ${Math.random() * 5}s;
 		}
 
 		@keyframes rotate {
@@ -182,7 +224,7 @@ export function link(props: Props & { label: string }) {
 
 	const html = /*html*/ `
 		<main class="container">
-			<a class="link">
+			<a class="link shine">
 				<div>${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
@@ -213,7 +255,7 @@ function svg(...args: any[]): string {
 
 	attributes.width ||= '100%';
 
-	return /*html*/ `
+	return /* html */ `
 	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
 		<foreignObject width="100%" height="100%">
 			<div xmlns="http://www.w3.org/1999/xhtml">
