@@ -3,27 +3,30 @@
 const BP_MEDIUM = 550;
 const BP_LARGE = 700;
 const BODY_COPY =
-  'Somewhere in between development and design. Formerly a pharmacist. Great to meet!';
+	'Somewhere in between development and design. Formerly a pharmacist. Great to meet!';
 
 interface Props {
-  width?: number;
-  height: number;
-  theme: 'light' | 'dark';
+	width?: number;
+	height: number;
+	theme: 'light' | 'dark';
 }
 
 interface Attributes {
-  height: string;
-  'data-theme': 'light' | 'dark';
-  [key: string]: string;
+	height: string;
+	'data-theme': 'light' | 'dark';
+	[key: string]: string;
 }
 
 const attr = (obj: Record<string, string>) =>
-  Object.entries(obj).reduce((acc, [key, value]) => `${acc} ${key}="${value}"`, '');
+	Object.entries(obj).reduce(
+		(acc, [key, value]) => `${acc} ${key}="${value}"`,
+		'',
+	);
 
 const svg = (styles: string, html: string, attributes: Attributes) => {
-  attributes.width ||= '100%';
+	attributes.width ||= '100%';
 
-  return /*html*/ `
+	return /*html*/ `
 	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
 		<foreignObject width="100%" height="100%">
 			<div xmlns="http://www.w3.org/1999/xhtml">
@@ -70,6 +73,13 @@ export const shared = /* css */ `
 		color: var(--color-accent);
 	}
 
+	/* Hide everything in Firefox by default – show fallback instead */
+	@-moz-document url-prefix() {
+		.container {
+			display: none;
+		}
+	}
+
 	.label {
 		contain: content;
 		font-size: 14px;
@@ -88,7 +98,7 @@ export const shared = /* css */ `
 `;
 
 export const main = (props: Props) => {
-  const styles = /*css*/ `
+	const styles = /*css*/ `
 		${shared}
 
 		:root {
@@ -123,7 +133,7 @@ export const main = (props: Props) => {
 		}
 	`;
 
-  const html = /* html */ `
+	const html = /* html */ `
 		<main class="container grid">
 			<article class="intro">
 				<p>${BODY_COPY}</p>
@@ -131,14 +141,14 @@ export const main = (props: Props) => {
 		</main>
 	`;
 
-  return svg(styles, html, {
-    height: `${props.height}`,
-    'data-theme': `${props.theme}`,
-  });
+	return svg(styles, html, {
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+	});
 };
 
 export const top = (props: Props) => {
-  const styles = /* css */ `
+	const styles = /* css */ `
 		${shared}
 
 		:root {
@@ -181,26 +191,33 @@ export const top = (props: Props) => {
 		}
 	`;
 
-  const html = /*html*/ `
+	const html = /*html*/ `
 		<div class="container grid label">
 			<div>Links</div>
 			<div>Johann Schopplich</div>
 		</div>
 	`;
 
-  return svg(styles, html, {
-    height: `${props.height}`,
-    'data-theme': `${props.theme}`,
-  });
+	return svg(styles, html, {
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+	});
 };
 
 export const link = (props: Props & { label: string }) => {
-  const styles = /*css*/ `
+	const styles = /*css*/ `
 		${shared}
 
 		:root {
 			--size-height: ${props.height};
 			--size-width: ${props.width};
+		}
+
+		/* Overwrite default, allow this to show in FF */
+		@-moz-document url-prefix() {
+			.container {
+				display: block;
+			}
 		}
 
 		.link {
@@ -217,7 +234,7 @@ export const link = (props: Props & { label: string }) => {
 		}
 	`;
 
-  const html = /*html*/ `
+	const html = /*html*/ `
 		<main class="container">
 			<a class="link">
 				<div>${props.label}</div>
@@ -226,9 +243,52 @@ export const link = (props: Props & { label: string }) => {
 		</main>
 	`;
 
-  return svg(styles, html, {
-    width: `${props.width}`,
-    height: `${props.height}`,
-    'data-theme': `${props.theme}`,
-  });
+	return svg(styles, html, {
+		width: `${props.width}`,
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+	});
+};
+
+export const fallback = (props: Props & { width: number }) => {
+	const styles = /* css */ `
+		${shared}
+
+		:root {
+			--size-height: ${props.height};
+			--size-width: ${props.width};
+		}
+
+		.container {
+			display: none;
+		}
+
+		/* Hide everywhere but Firefox */
+		@-moz-document url-prefix() {
+			.container {
+				display: flex;
+				align-items: end;
+			}
+		}
+
+		.intro {
+			font-size: 22px;
+			font-weight: 300;
+		}
+	`;
+
+	const html = /* html */ `
+		<main class="container">
+			<div class="intro">
+				<p>${BODY_COPY}</p>
+			</div>
+		</main>
+	`;
+
+	return svg(styles, html, {
+		width: `${props.width}`,
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+		viewbox: `0 0 ${props.width} ${props.height}`,
+	});
 };
