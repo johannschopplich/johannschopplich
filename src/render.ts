@@ -95,7 +95,6 @@ export const main = (props: Props) => {
 		${shared}
 
 		:root {
-			--size-width: 100cqw;
 			--size-height: ${props.height};
 			--size-label-height: 20;
 		}
@@ -104,6 +103,13 @@ export const main = (props: Props) => {
 			align-items: flex-end;
 			grid-template-rows: 1fr auto;
 			row-gap: 20px;
+		}
+
+		/* Hide in Firefox */
+		@-moz-document url-prefix() {
+			.container {
+				display: none;
+			}
 		}
 
 		.intro {
@@ -123,14 +129,6 @@ export const main = (props: Props) => {
 		@media (width > ${BP_LARGE}px) {
 			.intro {
 				grid-area: 1 / 4 / span 1 / span 3;
-			}
-		}
-
-		/* Show fallback layout for Firefox */
-		@-moz-document url-prefix() {
-			.container {
-				display: flex !important;
-				align-items: end;
 			}
 		}
 	`;
@@ -161,7 +159,7 @@ export const top = (props: Props) => {
 			align-items: center;
 		}
 
-		/* Hide top bar in Firefox */
+		/* Hide in Firefox */
 		@-moz-document url-prefix() {
 			.container {
 				display: none;
@@ -219,7 +217,6 @@ export const link = (props: Props & { label: string }) => {
 
 		:root {
 			--size-height: ${props.height};
-			--size-width: ${props.width};
 		}
 
 		.link {
@@ -249,5 +246,47 @@ export const link = (props: Props & { label: string }) => {
 		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
+	});
+};
+
+export const fallback = (props: Props) => {
+	const styles = /* css */ `
+		${shared}
+
+		:root {
+			--size-height: ${props.height};
+		}
+
+		.container {
+			display: none;
+		}
+
+		/* Hide everywhere but Firefox */
+		@-moz-document url-prefix() {
+			.container {
+				display: flex;
+				align-items: end;
+			}
+		}
+
+		.intro {
+			font-size: 22px;
+			font-weight: 300;
+		}
+	`;
+
+	const html = /* html */ `
+		<main class="container">
+			<div class="intro">
+				<p>${BODY_COPY}</p>
+			</div>
+		</main>
+	`;
+
+	return svg(styles, html, {
+		width: `${props.width}`,
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+		viewbox: `0 0 ${props.width} ${props.height}`,
 	});
 };
