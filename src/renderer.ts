@@ -128,14 +128,14 @@ export function top(props: Props) {
 		</div>
 	`;
 
-	return svg(styles, html, {
+	return svg(html, styles, {
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
 	});
 }
 
 export function bottom(props: Props) {
-	return svg('', '', {
+	return svg({
 		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
@@ -189,7 +189,7 @@ export function link(props: Props & { label: string }) {
 		</main>
 	`;
 
-	return svg(styles, html, {
+	return svg(html, styles, {
 		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
@@ -203,7 +203,14 @@ function attr(obj: Record<string, string>) {
 	);
 }
 
-function svg(styles: string, html: string, attributes: Attributes) {
+function svg(html: string, styles: string, attributes: Attributes): string;
+function svg(attributes: Attributes): string;
+function svg(...args: any[]): string {
+	const html: string = typeof args[0] === 'string' ? args[0] : '';
+	const styles: string = typeof args[1] === 'string' ? args[1] : '';
+	const attributes: Attributes =
+		typeof args[0] === 'object' ? args[0] : args[2];
+
 	attributes.width ||= '100%';
 
 	return /*html*/ `
