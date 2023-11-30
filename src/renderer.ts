@@ -17,26 +17,6 @@ interface Attributes {
 	[key: string]: string;
 }
 
-const attr = (obj: Record<string, string>) =>
-	Object.entries(obj).reduce(
-		(acc, [key, value]) => `${acc} ${key}="${value}"`,
-		'',
-	);
-
-const svg = (styles: string, html: string, attributes: Attributes) => {
-	attributes.width ||= '100%';
-
-	return /*html*/ `
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
-		<foreignObject width="100%" height="100%">
-			<div xmlns="http://www.w3.org/1999/xhtml">
-				<style>${styles}</style>
-				${html}
-			</div>
-		</foreignObject>
-	</svg>`;
-};
-
 export const shared = /* css */ `
 	:root {
 		--color-text-light: rgb(31, 35, 40);
@@ -124,11 +104,13 @@ export const main = (props: Props) => {
 			}
 		}
 
+		/*
 		@media (width > ${BP_LARGE}px) {
 			.intro {
 				grid-area: 1 / 4 / span 1 / span 3;
 			}
 		}
+		*/
 	`;
 
 	const html = /* html */ `
@@ -185,6 +167,7 @@ export const top = (props: Props) => {
 			}
 		}
 
+		/*
 		@media (width > ${BP_LARGE}px) {
 			.container > :nth-child(1) {
 				grid-area: 1 / 1 / span 1 / span 3;
@@ -194,6 +177,7 @@ export const top = (props: Props) => {
 				grid-area: 1 / 4 / span 1 / span 3;
 			}
 		}
+		*/
 	`;
 
 	const html = /*html*/ `
@@ -204,6 +188,13 @@ export const top = (props: Props) => {
 	`;
 
 	return svg(styles, html, {
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+	});
+};
+
+export const bottom = (props: Props) => {
+	return svg('', '', {
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
 	});
@@ -299,3 +290,24 @@ export const fallback = (props: Props) => {
 		viewbox: `0 0 ${props.width} ${props.height}`,
 	});
 };
+
+function attr(obj: Record<string, string>) {
+	return Object.entries(obj).reduce(
+		(acc, [key, value]) => `${acc} ${key}="${value}"`,
+		'',
+	);
+}
+
+function svg(styles: string, html: string, attributes: Attributes) {
+	attributes.width ||= '100%';
+
+	return /*html*/ `
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
+		<foreignObject width="100%" height="100%">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				<style>${styles}</style>
+				${html}
+			</div>
+		</foreignObject>
+	</svg>`;
+}
