@@ -1,19 +1,36 @@
-[me]: https://johannschopplich.com
-[photography]: https://johannschopplich.com/en/photography
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=top&theme=dark">
+  <img src="https://github-readme.byjohann.workers.dev?section=top&theme=light" width="100%" height="20" align="left">
+</picture>
+<a href="https://byjohann.link">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=0&label=Linktree&theme=dark" label="Visit">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&i=0&label=Linktree&theme=light" alt="Visit my link tree" width="100" height="20" align="left">
+  </picture>
+</a>
+<img src="data:null;," width="100%" height="0" align="left" alt="">
+<a href="https://johannschopplich.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=1&label=Website&theme=dark" label="Visit">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&i=1&label=Website&theme=light" alt="Visit my website" width="100" height="20" align="left">
+  </picture>
+</a>
+<img src="data:null;," width="100%" height="0" align="left" alt="">
+<a href="https://www.instagram.com/johannschopplich">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=2&label=Instagram&theme=dark">
+    <img src="https://github-readme.byjohann.workers.dev?section=link&i=2&label=Instagram&theme=light" alt="Visit my Instagram" width="100" height="20" align="left">
+  </picture>
+</a>
+<img src="data:null;," width="100%" height="0" align="left" alt="">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=bottom&theme=dark">
+  <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20">
+</picture>
 
-<h2>
-  <samp>
-    <a href="https://byjohann.link">linktree</a> ·
-    <a href="https://johannschopplich.com">website</a> ·
-    <a href="https://johannschopplich.com/en/about">about</a> ·
-    <a href="https://www.youtube.com/watch?v=m6QLRFNEiKk">youtube</a> ·
-    <a href="https://instagram.com/johannschopplich">instagram</a>
-  </samp>
-</h2>
+Hi, I’m Johann. I work somewhere in between development and design – a JavaScript one-trick pony with an aesthetic sense.
 
 <br>
-
-I am a full stack developer and pharmacist prior to that. Turning passion into profession as a career changer was one of the best decisions of my life.
 
 ### Projects
 
@@ -64,3 +81,7 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 - [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
 - [bildhauer-volkmar-kuehn.de](https://github.com/johannschopplich/bildhauer-volkmar-kuehn.de): 🐰 Personal website for German sculpting artist Volkmar Kühn
 - [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
+
+### Credits
+
+- Thanks for [terkelg/terkelg](https://github.com/terkelg/terkelg) for the creative website inside an SVG idea!
