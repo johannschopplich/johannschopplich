@@ -23,14 +23,6 @@
   </picture>
 </a>
 <img src="data:null;," width="100%" height="0" align="left" alt="">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=fallback&theme=dark">
-  <img src="https://github-readme.byjohann.workers.dev?section=main&theme=light" alt="" width="100%" align="left">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=main&theme=dark">
-  <img src="https://github-readme.byjohann.workers.dev?section=main&theme=light" alt="Somewhere in between development and design. Formerly a pharmacist. Great to meet!" width="100%" height="100" align="left">
-</picture>
 
 <br>
 

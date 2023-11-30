@@ -115,7 +115,6 @@ export const main = (props: Props) => {
 			contain: content;
 			grid-area: 1 / 1 / span 1 / span 6;
 			font-size: 18px;
-			font-weight: 300;
 		}
 
 		@media (width > ${BP_MEDIUM}px) {
@@ -199,7 +198,7 @@ export const top = (props: Props) => {
 
 	const html = /*html*/ `
 		<div class="container grid label">
-			<div>Links</div>
+			<div>Navigation</div>
 			<div>Johann Schopplich</div>
 		</div>
 	`;
@@ -270,7 +269,6 @@ export const fallback = (props: Props) => {
 
 		.intro {
 			font-size: 22px;
-			font-weight: 300;
 		}
 
 		@media (width > ${BP_MEDIUM}px) {
