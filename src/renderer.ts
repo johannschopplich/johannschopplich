@@ -15,7 +15,7 @@ interface Attributes {
 	[key: string]: string;
 }
 
-export const shared = /* css */ `
+const SHARED_STYLESHEET = /* css */ `
 	:root {
 		--color-text-light: rgb(31, 35, 40);
 		--color-text-dark: white;
@@ -114,11 +114,11 @@ export const shared = /* css */ `
 			background-position: 0%;
 		}
 	}
-	`;
+`;
 
 export function top(props: Props) {
 	const styles = /* css */ `
-		${shared}
+		${SHARED_STYLESHEET}
 
 		:root {
 			--size-height: ${props.height};
@@ -182,18 +182,9 @@ export function top(props: Props) {
 	});
 }
 
-export function bottom(props: Props) {
-	return svg({
-		width: `${props.width}`,
-		height: `${props.height}`,
-		'data-theme': `${props.theme}`,
-		viewbox: `0 0 ${props.width} ${props.height}`,
-	});
-}
-
 export function link(props: Props & { index: number; label: string }) {
 	const styles = /* css */ `
-		${shared}
+		${SHARED_STYLESHEET}
 
 		:root {
 			--size-height: ${props.height};
@@ -217,7 +208,7 @@ export function link(props: Props & { index: number; label: string }) {
 	const html = /*html*/ `
 		<main class="container">
 			<a class="link fade-in">
-				<div>${props.label}</div>
+				<div class="shine">${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
 		</main>
@@ -227,6 +218,15 @@ export function link(props: Props & { index: number; label: string }) {
 		width: `${props.width}`,
 		height: `${props.height}`,
 		'data-theme': `${props.theme}`,
+	});
+}
+
+export function bottom(props: Props) {
+	return svg({
+		width: `${props.width}`,
+		height: `${props.height}`,
+		'data-theme': `${props.theme}`,
+		viewbox: `0 0 ${props.width} ${props.height}`,
 	});
 }
 
@@ -248,12 +248,12 @@ function svg(...args: any[]): string {
 	attributes.width ||= '100%';
 
 	return /* html */ `
-	<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
-		<foreignObject width="100%" height="100%">
-			<div xmlns="http://www.w3.org/1999/xhtml">
-				<style>${styles}</style>
-				${html}
-			</div>
-		</foreignObject>
-	</svg>`;
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" ${attr(attributes)}>
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>${styles}</style>
+			${html}
+		</div>
+	</foreignObject>
+</svg>`.trimStart();
 }
