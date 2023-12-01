@@ -198,6 +198,10 @@ export function link(props: Props & { index: number; label: string }) {
 			animation-delay: ${250 + props.index * 250}ms;
 		}
 
+		.link__label {
+			animation-delay: ${Math.random() * 10}s;
+		}
+
 		.link__arrow {
 			font-size: 0.75em;
 			position: relative;
@@ -208,7 +212,7 @@ export function link(props: Props & { index: number; label: string }) {
 	const html = /*html*/ `
 		<main class="container">
 			<a class="link fade-in">
-				<div class="shine">${props.label}</div>
+				<div class="${props.index === 0 ? 'shine' : ''}">${props.label}</div>
 				<div class="link__arrow">↗</div>
 			</a>
 		</main>
