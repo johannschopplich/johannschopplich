@@ -199,7 +199,7 @@ export function link(props: Props & { index: number; label: string }) {
 		}
 
 		.link__label {
-			animation-delay: ${Math.random() * 10}s;
+			animation-delay: ${1000 + props.index * 250}ms;
 		}
 
 		.link__arrow {
