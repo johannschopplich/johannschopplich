@@ -30,8 +30,6 @@
 
 Hi, I’m Johann. I work somewhere in between development and design – a JavaScript one-trick pony with an aesthetic sense.
 
-<br>
-
 ### Projects
 
 My current focus is on the Nuxt and Vue development experience and how it can help to increase productivity.
