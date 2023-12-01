@@ -59,8 +59,9 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 
 #### Libraries
 
-- [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
+- [tokenwise](https://github.com/johannschopplich/tokenwise): 📐 GPT token estimation and context size utilities without a full tokenizer
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs, like extracting text
+- [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
 - [unjwt](https://github.com/johannschopplich/unjwt): 🆓 Easy creation and verification of JWTs for Node.js, browser and workers
 
 #### Demos / Templates / App Starters
@@ -75,13 +76,3 @@ My current focus is on the Nuxt and Vue development experience and how it can he
 - [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Copy commonly used characters to your clipboard
 - [kirby-hashed-assets](https://github.com/johannschopplich/kirby-hashed-assets): 🛷 File name hashes support for `css()` and `js()` helpers. Without rewrite rules!
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
-
-#### Open Source Websites
-
-- [dachsbau-tautenhain.de](https://github.com/johannschopplich/dachsbau-frontend): 🦡 Nuxt 3 & KQL frontend for dachsbau-tautenhain.de
-- [bildhauer-volkmar-kuehn.de](https://github.com/johannschopplich/bildhauer-volkmar-kuehn.de): 🐰 Personal website for German sculpting artist Volkmar Kühn
-- [johannschopplich.com](https://github.com/johannschopplich/johannschopplich.com): 🍂 My personal website — built with Kirby & Vite
-
-### Credits
-
-- Thanks for [terkelg/terkelg](https://github.com/terkelg/terkelg) for the creative website inside an SVG idea!
