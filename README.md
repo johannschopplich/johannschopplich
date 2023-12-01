@@ -28,11 +28,12 @@
   <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20">
 </picture>
 
-Hi, I’m Johann. I work somewhere in between development and design – a JavaScript one-trick pony with an aesthetic sense.
+Hi, I’m Johann. I work somewhere in between development and design —
+A JavaScript one-trick pony with an aesthetic sense.
 
 ### Projects
 
-My current focus is on the Nuxt and Vue development experience and how it can help to increase productivity.
+My current focus is on the Nuxt and Vue development experience.
 
 #### Multi-Framework
 
