@@ -71,8 +71,8 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Kirby Plugins
 
-- ⭐️ [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
 - ⭐️ [kirby-content-translator](https://github.com/johannschopplich/kirby-content-translator): 🌐 Kirby Panel plugin for field and blocks translation with DeepL or other services
-- [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Copy commonly used characters to your clipboard
-- [kirby-hashed-assets](https://github.com/johannschopplich/kirby-hashed-assets): 🛷 File name hashes support for `css()` and `js()` helpers. Without rewrite rules!
+- [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
+- [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
+- [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Insert punctuation marks into your text with a single click
 - [kirbylog](https://github.com/johannschopplich/kirbylog): 🪃 Zero-dependency global `kirbylog()` helper for any content
