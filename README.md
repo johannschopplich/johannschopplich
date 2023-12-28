@@ -71,7 +71,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Kirby Plugins
 
-- ⭐️ [kirby-content-translator](https://github.com/johannschopplich/kirby-content-translator): 🌐 Kirby Panel plugin for field and blocks translation with DeepL or other services
+- ⭐️ [kirby-content-translator](https://github.com/johannschopplich/kirby-content-translator): 🌐 Kirby Panel plugin to translate content at once with DeepL or other services
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless only – bearer token, Express-esque middlewares & more
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
