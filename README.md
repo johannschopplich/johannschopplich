@@ -59,8 +59,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [tokenwise](https://github.com/johannschopplich/tokenwise): 📐 GPT token estimation and context size utilities without a full tokenizer
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs, like extracting text
-- [unrested](https://github.com/johannschopplich/unrested): 🚥 Minimal, type-safe REST client using JS proxies (36 loc)
-- [unjwt](https://github.com/johannschopplich/unjwt): 🆓 Easy creation and verification of JWTs for Node.js, browser and workers
+- [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management
 
 #### Demos / Templates / App Starters
 
