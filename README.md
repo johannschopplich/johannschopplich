@@ -53,7 +53,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [pdfjs-serverless](https://github.com/johannschopplich/pdfjs-serverless): 🪭 Serverless build of PDF.js for Deno, workers, and other nodeless environments
-- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Zero-config bundler for Kirby Panel plugins
+- [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 
 #### Libraries
 
