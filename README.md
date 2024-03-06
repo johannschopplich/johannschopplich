@@ -57,8 +57,8 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Libraries
 
+- [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
 - [tokenwise](https://github.com/johannschopplich/tokenwise): 📐 GPT token estimation and context size utilities without a full tokenizer
-- [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs, like extracting text
 - [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management
 
 #### Demos / Templates / App Starters
@@ -69,7 +69,13 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Kirby Plugins
 
-- ⭐️ [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
+#### Commercial
+
+- [kirby-seo-audit](https://kirbyseo.com): 🏃 State-of-the-art SEO analysis for Kirby CMS
+- [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
+
+#### Open Source
+
 - ⭐️ [kirby-content-translator](https://github.com/johannschopplich/kirby-content-translator): 🌐 Kirby Panel plugin to translate content at once with DeepL or other services
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless only – bearer token, Express-esque middlewares & more
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
