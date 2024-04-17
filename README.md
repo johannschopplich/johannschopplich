@@ -52,6 +52,7 @@ My current focus is on the Nuxt and Vue development experience.
 #### Tooling
 
 - [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
+- [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): 🧪 Testing environment and utilities for Nitro
 - [pdfjs-serverless](https://github.com/johannschopplich/pdfjs-serverless): 🪭 Serverless build of PDF.js for Deno, workers, and other nodeless environments
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 
@@ -59,7 +60,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
 - [tokenwise](https://github.com/johannschopplich/tokenwise): 📐 GPT token estimation and context size utilities without a full tokenizer
-- [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management
+- [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management for ofetch, route building and typed OpenAPI clients
 
 #### Demos / Templates / App Starters
 
