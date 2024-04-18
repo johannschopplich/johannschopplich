@@ -42,10 +42,10 @@ My current focus is on the Nuxt and Vue development experience.
 #### Nuxt.js & Vue.js
 
 - [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt
-- [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🪅 Securely connect to any API with a server proxy and generated composables
+- [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🐬 Securely connect to any API with a server proxy and generated composables
 - [nuxt-prepare](https://nuxt-prepare.byjohann.dev): 🦎 Run initialization steps at build time
 - [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt
-- [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Tag integration for Nuxt — GA4 with consent management, Google Ads and more
+- [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Tag integration for Nuxt: Google Analytics, Google Ads and more
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [@byjohann/vue-i18n](https://github.com/johannschopplich/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 
