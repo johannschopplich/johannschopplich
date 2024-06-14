@@ -73,13 +73,13 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Commercial
 
-- [kirby-live-preview](https://kirby.tools/live-preview): 🪩 Real-time page preview in the Kirby Panel
 - [kirby-seo-audit](https://kirbyseo.com): 🏃 State-of-the-art SEO analysis for Kirby CMS
+- [kirby-live-preview](https://kirby.tools/live-preview): 🪩 Real-time page preview in the Kirby Panel
+- [kirby-content-translator](https://kirby.tools/content-translator): 🌐 Translate any page in the Panel or programmatically with DeepL
 - [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
 
 #### Open Source
 
-- ⭐️ [kirby-content-translator](https://github.com/johannschopplich/kirby-content-translator): 🌐 Kirby Panel plugin to translate content at once with DeepL or other services
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless only – bearer token, Express-esque middlewares & more
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
