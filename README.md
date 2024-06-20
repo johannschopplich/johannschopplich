@@ -56,6 +56,7 @@ My current focus is on the Nuxt and Vue development experience.
 - [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): 🧪 Testing environment and utilities for Nitro
 - [pdfjs-serverless](https://github.com/johannschopplich/pdfjs-serverless): 🪭 Serverless build of PDF.js for Deno, workers, and other nodeless environments
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
+- [kirbyuse](https://github.com/johannschopplich/kirbyuse): 🎛️ Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
 
 #### Libraries
 
