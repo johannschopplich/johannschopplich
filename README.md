@@ -44,7 +44,7 @@ My current focus is on the Nuxt and Vue development experience.
 - [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): 🎟️ Plausible Analytics integration for Nuxt
 - [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🐬 Securely connect to any API with a server proxy and generated composables
 - [nuxt-prepare](https://nuxt-prepare.byjohann.dev): 🦎 Build actions for Nuxt
-- [nuxt-lcp-speedup](https://github.com/johannschopplich/nuxt-lcp-speedup): 🪿 Instantly better LCP scores in Google Lighthouse
+- [nuxt-vitalizer](https://github.com/johannschopplich/nuxt-vitalizer): 🪿 Instantly better LCP scores in Google Lighthouse
 - [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics & Ads integration made easy
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
@@ -61,7 +61,7 @@ My current focus is on the Nuxt and Vue development experience.
 #### Libraries
 
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
-- [tokenwise](https://github.com/johannschopplich/tokenwise): 📐 GPT token estimation and context size utilities without a full tokenizer
+- [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
 - [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management for ofetch, route building and typed OpenAPI clients
 
 #### Demos / Templates / App Starters
