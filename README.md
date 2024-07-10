@@ -62,7 +62,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
 - [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
-- [apiverse](https://github.com/johannschopplich/apiverse): ✴️ Unified, pluggable API client management for ofetch, route building and typed OpenAPI clients
+- [apiful](https://github.com/johannschopplich/apiful): ✴️ Unified, pluggable API client management for ofetch, route building and typed OpenAPI clients
 
 #### Demos / Templates / App Starters
 
