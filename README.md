@@ -81,7 +81,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Open Source
 
-- [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless only – bearer token, Express-esque middlewares & more
+- [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless first with bearer token authentication and KQL utilities
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
 - [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Insert punctuation marks into your text with a single click
