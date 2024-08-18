@@ -28,8 +28,7 @@
   <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20">
 </picture>
 
-Hi, I’m Johann. I work somewhere in between development and design —<br>
-A JavaScript one-trick pony with an aesthetic sense.
+Hi, I’m Johann. A developer with an aesthetic sense.
 
 ### Projects
 
