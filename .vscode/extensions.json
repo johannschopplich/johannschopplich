@@ -1,7 +1,3 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "Tobermory.es6-string-html"
-  ]
+  "recommendations": ["dbaeumer.vscode-eslint"]
 }

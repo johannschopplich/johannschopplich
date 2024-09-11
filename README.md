@@ -1,34 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=top&theme=dark">
-  <img src="https://github-readme.byjohann.workers.dev?section=top&theme=light" width="100%" height="20" align="left">
-</picture>
-<a href="https://byjohann.link">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=0&label=Linktree&theme=dark" label="Visit">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&i=0&label=Linktree&theme=light" alt="Visit my link tree" width="100" height="20" align="left">
-  </picture>
-</a>
-<img src="data:null;," width="100%" height="0" align="left" alt="">
-<a href="https://johannschopplich.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=1&label=Website&theme=dark" label="Visit">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&i=1&label=Website&theme=light" alt="Visit my website" width="100" height="20" align="left">
-  </picture>
-</a>
-<img src="data:null;," width="100%" height="0" align="left" alt="">
-<a href="https://www.instagram.com/johannschopplich">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=link&i=2&label=Instagram&theme=dark">
-    <img src="https://github-readme.byjohann.workers.dev?section=link&i=2&label=Instagram&theme=light" alt="Visit my Instagram" width="100" height="20" align="left">
-  </picture>
-</a>
-<img src="data:null;," width="100%" height="0" align="left" alt="">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme.byjohann.workers.dev?section=bottom&theme=dark">
-  <img src="https://github-readme.byjohann.workers.dev?section=bottom&theme=light" alt="" width="100%" height="20">
-</picture>
-
-Hi, I’m Johann. A developer with an aesthetic sense.
+**Hi, [I’m Johann](https://byjohann.link). A developer with an aesthetic sense.**
 
 ### Projects
 
