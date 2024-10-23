@@ -7,6 +7,7 @@ My current focus is on the Nuxt and Vue development experience.
 #### Multi-Framework
 
 - [unlazy](https://unlazy.byjohann.dev): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
+- [apiful](https://apiful.byjohann.dev): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 
 #### Nuxt.js & Vue.js
 
@@ -29,7 +30,6 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Libraries
 
-- [apiful](https://apiful.byjohann.dev): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
 - [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
 - [resultx](https://github.com/johannschopplich/resultx): 🤝 Minimalist, strongly-typed result pattern for TypeScript
