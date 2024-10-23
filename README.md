@@ -29,9 +29,9 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Libraries
 
+- [apiful](https://apiful.byjohann.dev): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 - [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
 - [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
-- [apiful](https://github.com/johannschopplich/apiful): ✴️ Unified, pluggable API client management for ofetch, route building and typed OpenAPI clients
 - [resultx](https://github.com/johannschopplich/resultx): 🤝 Minimalist, strongly-typed result pattern for TypeScript
 
 #### Demos / Templates / App Starters
