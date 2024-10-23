@@ -6,8 +6,8 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Multi-Framework
 
-- [unlazy](https://unlazy.byjohann.dev): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
-- [apiful](https://apiful.byjohann.dev): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
+- [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
+- [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 
 #### Nuxt.js & Vue.js
 
