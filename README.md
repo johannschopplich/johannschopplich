@@ -44,14 +44,13 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Commercial
 
+- [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
+- [kirby-content-translator](https://kirby.tools/content-translator): 🌐 Translate any page in the Panel or programmatically with DeepL
 - [kirby-seo-audit](https://kirbyseo.com): 🏃 State-of-the-art SEO analysis for Kirby CMS
 - [kirby-live-preview](https://kirby.tools/live-preview): 🪩 Real-time page preview in the Kirby Panel
-- [kirby-content-translator](https://kirby.tools/content-translator): 🌐 Translate any page in the Panel or programmatically with DeepL
-- [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
 
 #### Open Source
 
+- [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless first with bearer token authentication and KQL utilities
 - [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
-- [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
-- [kirby-punctuation-section](https://github.com/johannschopplich/kirby-punctuation-section): ✒️ Insert punctuation marks into your text with a single click
