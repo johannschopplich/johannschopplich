@@ -45,7 +45,7 @@ My current focus is on the Nuxt and Vue development experience.
 #### Commercial
 
 - [kirby-copilot](https://kirbycopilot.com): 🪁 Your everyday AI companion for the Kirby Panel
-- [kirby-content-translator](https://kirby.tools/content-translator): 🌐 Translate your content with DeepL, using the Kirby Panel or CLI commands
+- [kirby-content-translator](https://kirby.tools/content-translator): 🌐 Translate your content with DeepL, in the Panel or via CLI commands
 - [kirby-seo-audit](https://kirbyseo.com): 🏃 State-of-the-art SEO analysis for Kirby CMS
 - [kirby-live-preview](https://kirby.tools/live-preview): 🪩 Real-time page preview in the Kirby Panel
 
