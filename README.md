@@ -52,5 +52,5 @@ My current focus is on the Nuxt and Vue development experience.
 #### Open Source
 
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
+- [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): 🧭 Sidebar content navigation plugin for the Kirby Panel
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless first with bearer token authentication and KQL utilities
-- [kirby-algolia-docsearch](https://github.com/johannschopplich/kirby-algolia-docsearch): 🔦 Index and search your Kirby site with Algolia DocSearch
