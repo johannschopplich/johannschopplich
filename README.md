@@ -24,13 +24,12 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): 🧪 Testing environment and utilities for Nitro
-- [pdfjs-serverless](https://github.com/johannschopplich/pdfjs-serverless): 🪭 Serverless build of PDF.js for Deno, workers, and other nodeless environments
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 - [kirbyuse](https://github.com/johannschopplich/kirbyuse): 🎛️ Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
 
 #### Libraries
 
-- [unpdf](https://github.com/unjs/unpdf): 📄 Utilities to work with PDFs in Node.js, browser and workers
+- [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
 - [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
 - [resultx](https://github.com/johannschopplich/resultx): 🤝 Minimalist, strongly-typed result pattern for TypeScript
 
@@ -53,4 +52,5 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
 - [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): 🧭 Sidebar content navigation plugin for the Kirby Panel
+- [kirby-deploy-trigger](https://github.com/johannschopplich/kirby-deploy-trigger): 🚀 Kirby Panel plugin to trigger deployments on any platform
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless first with bearer token authentication and KQL utilities
