@@ -8,6 +8,8 @@ My current focus is on the Nuxt and Vue development experience.
 
 - [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 - [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
+- [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
+- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast and lightweight token estimation for any LLM without requiring a full tokenizer
 
 #### Nuxt.js & Vue.js
 
@@ -20,17 +22,12 @@ My current focus is on the Nuxt and Vue development experience.
 - [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [@byjohann/vue-i18n](https://github.com/johannschopplich/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 
-#### Tooling
+#### Libraries
 
 - [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): 🧪 Testing environment and utilities for Nitro
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 - [kirbyuse](https://github.com/johannschopplich/kirbyuse): 🎛️ Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
-
-#### Libraries
-
-- [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
-- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast and lightweight token estimation for any LLM without requiring a full tokenizer
 - [resultx](https://github.com/johannschopplich/resultx): 🤝 Minimalist, strongly-typed result pattern for TypeScript
 
 #### Demos / Templates / App Starters
