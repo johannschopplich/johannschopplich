@@ -30,7 +30,7 @@ My current focus is on the Nuxt and Vue development experience.
 #### Libraries
 
 - [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
-- [tokenx](https://github.com/johannschopplich/tokenx): 📐 GPT token estimation and context size utilities without a full tokenizer
+- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast and lightweight token estimation for any LLM without requiring a full tokenizer
 - [resultx](https://github.com/johannschopplich/resultx): 🤝 Minimalist, strongly-typed result pattern for TypeScript
 
 #### Demos / Templates / App Starters
