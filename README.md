@@ -17,9 +17,8 @@ My current focus is on the Nuxt and Vue development experience.
 - [nuxt-api-party](https://nuxt-api-party.byjohann.dev): 🐬 Securely connect to any API with a server proxy and generated composables
 - [nuxt-prepare](https://nuxt-prepare.byjohann.dev): 🦎 Build actions for Nuxt
 - [nuxt-vitalizer](https://github.com/johannschopplich/nuxt-vitalizer): 🪿 Instantly better LCP scores in Google Lighthouse
-- [nuxt-kql](https://nuxt-kql.byjohann.dev): 🫧 Kirby's Query Language API for Nuxt
+- [nuxt-kirby](https://nuxt-kirby.byjohann.dev): 🫧 Kirby CMS integration for Nuxt with KQL support
 - [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): 🔸 Google Analytics & Ads integration made easy
-- [vue-stickers](https://github.com/johannschopplich/vue-stickers): 🍦 One component, multiple fancy sticker variants
 - [@byjohann/vue-i18n](https://github.com/johannschopplich/vue-i18n): 🌐 Lightweight internationalization plugin for Vue
 
 #### Libraries
