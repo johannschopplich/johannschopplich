@@ -23,7 +23,7 @@ My current focus is on the Nuxt and Vue development experience.
 
 #### Libraries
 
-- [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
+- [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages-engine/cli): 🎨 The CLI for UnoCSS. A perfect fit for traditional backends.
 - [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): 🧪 Testing environment and utilities for Nitro
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 - [kirbyuse](https://github.com/johannschopplich/kirbyuse): 🎛️ Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
