@@ -9,7 +9,7 @@ My current focus is on the Nuxt and Vue development experience.
 - [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 - [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 - [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
-- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast and lightweight token estimation for any LLM without requiring a full tokenizer
+- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast token estimation at 94% accuracy of a full tokenizer in a 2kB bundle
 
 #### Nuxt.js & Vue.js
 
