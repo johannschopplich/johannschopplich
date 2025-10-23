@@ -7,8 +7,8 @@ My current focus is on universal tooling and developer experience across JavaScr
 #### Universal Tooling
 
 - [toon](https://github.com/johannschopplich/toon): ✂️ Token-Oriented Object Notation – JSON for LLMs at **half the token cost**
+- [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible & type-safe API tooling — generated OpenAPI clients and server-side utilities, for any JavaScript runtime
 - [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
-- [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible, typed API tooling — from generated OpenAPI clients to server-side utilities, for any JavaScript runtime
 - [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
 - [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast token estimation at 94% accuracy of a full tokenizer in a 2kB bundle
 

@@ -2,9 +2,9 @@
   "name": "johannschopplich",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@9.10.0",
+  "packageManager": "pnpm@10.19.0",
   "description": "Johann Schopplich: Somewhere in between development and design. Formerly a pharmacist. Great to meet!",
-  "author": "Johann Schopplich <pkg@johannschopplich.com>",
+  "author": "Johann Schopplich <hello@johannschopplich.com>",
   "license": "MIT",
   "homepage": "https://github.com/johannschopplich/johannschopplich#readme",
   "repository": {
@@ -26,9 +26,9 @@
     "types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.5.1",
-    "@types/node": "^20.16.5",
-    "eslint": "^9.10.0",
-    "typescript": "^5.5.4"
+    "@antfu/eslint-config": "^6.0.0",
+    "@types/node": "^24.9.1",
+    "eslint": "^9.38.0",
+    "typescript": "^5.9.3"
   }
 }
