@@ -29,7 +29,7 @@ My current focus is on universal tooling and developer experience across JavaScr
 - [kirbyup](https://github.com/johannschopplich/kirbyup): 🆙 Official bundler for Kirby Panel plugins
 - [kirbyuse](https://github.com/johannschopplich/kirbyuse): 🎛️ Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
 
-#### Demos / Templates / App Starters
+#### Starters / Templates
 
 - [cacao-kit-frontend](https://github.com/johannschopplich/cacao-kit-frontend): 🍫 Best practice Nuxt and KQL starter for your headless Kirby CMS
 - [kirby-headless-starter](https://github.com/johannschopplich/kirby-headless-starter): 🦭 Headless-first Kirby starter with bearer token authentication and KQL utilities
