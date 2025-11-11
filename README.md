@@ -6,7 +6,7 @@ My current focus is on universal tooling and developer experience across JavaScr
 
 #### Universal Tooling
 
-- [toon](https://github.com/johannschopplich/toon): 🎒 Token-Oriented Object Notation (TOON) – A compact, deterministic JSON encoding for LLM prompts. Spec, benchmarks, TypeScript SDK.
+- [toon](https://github.com/johannschopplich/toon): 🎒 Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
 - [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible & type-safe API tooling — generated OpenAPI clients and server-side utilities, for any JavaScript runtime
 - [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 - [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
