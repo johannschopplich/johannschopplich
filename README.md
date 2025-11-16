@@ -1,4 +1,4 @@
-**Hi, [I'm Johann](https://byjohann.link) – a self-taught developer with an aesthetic sense.**
+**Hi, [I'm Johann](https://byjohann.link)**. I'm a self-taught developer who went from pharmacy to code. I learn best by building things, so that's what you'll find here.
 
 ### Projects
 
