@@ -46,5 +46,4 @@ My current focus is on universal tooling and developer experience across JavaScr
 
 - [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): 🔍 Kirby Panel plugin for search engine result page previews
 - [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): 🧭 Sidebar content navigation plugin for the Kirby Panel
-- [kirby-deploy-trigger](https://github.com/johannschopplich/kirby-deploy-trigger): 🚀 Kirby Panel plugin to trigger deployments on any platform
 - [kirby-headless](https://github.com/johannschopplich/kirby-headless): 🦭 Kirby, but headless first with bearer token authentication and KQL utilities
