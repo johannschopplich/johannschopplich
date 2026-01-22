@@ -10,7 +10,7 @@ My current focus is on universal tooling and developer experience across JavaScr
 - [apiful](https://github.com/johannschopplich/apiful): 🍷 Extensible & type-safe API tooling — generated OpenAPI clients and server-side utilities, for any JavaScript runtime
 - [unlazy](https://github.com/johannschopplich/unlazy): 🪧 Universal lazy loading library for placeholder images leveraging native browser APIs
 - [unpdf](https://github.com/unjs/unpdf): 📄 PDF extraction and rendering across all JavaScript runtimes
-- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast token estimation at 94% accuracy of a full tokenizer in a 2kB bundle
+- [tokenx](https://github.com/johannschopplich/tokenx): 📐 Fast token estimation at 96% accuracy of a full tokenizer in a 2kB bundle
 
 #### Nuxt & Vue
 

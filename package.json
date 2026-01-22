@@ -2,7 +2,7 @@
   "name": "johannschopplich",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@10.19.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "Johann Schopplich: Somewhere in between development and design. Formerly a pharmacist. Great to meet!",
   "author": "Johann Schopplich <hello@johannschopplich.com>",
   "license": "MIT",
@@ -26,9 +26,9 @@
     "types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.0.0",
-    "@types/node": "^24.9.1",
-    "eslint": "^9.38.0",
+    "@antfu/eslint-config": "^7.2.0",
+    "@types/node": "^24.10.9",
+    "eslint": "^9.39.2",
     "typescript": "^5.9.3"
   }
 }
