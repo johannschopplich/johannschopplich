@@ -2,16 +2,13 @@
 
 import * as ansis from 'ansis'
 
-type RGB = [number, number, number] | null
-
-const AVATAR_COLORS: Record<string, RGB> = {
-  _: null, // transparent
-  h: [137, 147, 122], // hair #89937A
-  s: [228, 157, 35], // skin #E49D23
-  e: [145, 96, 52], // eyes #916034
-  m: [234, 85, 20], // mouth #EA5514
-  b: [109, 117, 95], // belt #6D755F
-  f: [197, 185, 153], // feet #C5B999
+const AVATAR_COLORS: Record<string, string> = {
+  h: '#89937A', // hair
+  s: '#E49D23', // skin
+  e: '#916034', // eyes
+  m: '#EA5514', // mouth
+  b: '#6D755F', // belt
+  f: '#C5B999', // feet
 }
 
 // 9x9 pixel grid
@@ -32,9 +29,6 @@ const avatar = renderAvatar()
 // OSC 8 hyperlink (falls back to plain text if unsupported)
 const link = (url: string, text: string) => `\x1B]8;;${url}\x1B\\${text}\x1B]8;;\x1B\\`
 
-// Border color (primary green from avatar)
-const b = ansis.rgb(137, 147, 122)
-
 // Content lines: [text, avatarLine or '']
 // Avatar aligned to bottom (ending with feet below Web link)
 const lines: [string, string][] = [
@@ -47,6 +41,9 @@ const lines: [string, string][] = [
   [`🌐 ${ansis.yellow('Web')}       ${link('https://johannschopplich.com', 'johannschopplich.com')}`, avatar[3]!],
   ['', avatar[4]!],
 ]
+
+// Border color (primary green from avatar)
+const b = ansis.gray
 
 const box = `
 ${b('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓')}
@@ -87,8 +84,8 @@ function renderAvatar(): string[] {
   for (let row = 0; row < 9; row += 2) {
     let line = ''
     for (let col = 0; col < 9; col++) {
-      const top = AVATAR_COLORS[PIXEL_GRID[row]![col]!]!
-      const bot = row + 1 < 9 ? AVATAR_COLORS[PIXEL_GRID[row + 1]![col]!]! : null
+      const top = AVATAR_COLORS[PIXEL_GRID[row]![col]!]
+      const bot = row + 1 < 9 ? AVATAR_COLORS[PIXEL_GRID[row + 1]![col]!] : undefined
       line += renderCell(top, bot)
     }
     lines.push(line)
@@ -97,13 +94,13 @@ function renderAvatar(): string[] {
 }
 
 // Render a single cell using half-blocks
-function renderCell(top: RGB, bottom: RGB): string {
+function renderCell(top: string | undefined, bottom: string | undefined): string {
   if (!top && !bottom)
     return ' '
   if (!top && bottom)
-    return ansis.rgb(...bottom)('▄')
+    return ansis.hex(bottom)('▄')
   if (top && !bottom)
-    return ansis.rgb(...top)('▀')
+    return ansis.hex(top)('▀')
   // Both colors present: use ▄ with bg=top, fg=bottom
-  return ansis.bgRgb(...top!).rgb(...bottom!)('▄')
+  return ansis.bgHex(top!).hex(bottom!)('▄')
 }
