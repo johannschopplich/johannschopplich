@@ -1,7 +1,7 @@
 {
   "name": "johannschopplich",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "packageManager": "pnpm@10.28.1",
   "description": "Hi, I'm Johann. Developer with an eye for design.",
   "author": "Johann Schopplich <hello@johannschopplich.com>",
