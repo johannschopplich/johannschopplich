@@ -3,11 +3,11 @@
 import * as ansis from 'ansis'
 
 const AVATAR_COLORS: Record<string, string> = {
-  h: '#89937A', // hair
+  h: '#879570', // hair
   s: '#E49D23', // skin
   e: '#916034', // eyes
   m: '#EA5514', // mouth
-  b: '#6D755F', // belt
+  b: '#6B7757', // belt
   f: '#C5B999', // feet
 }
 
