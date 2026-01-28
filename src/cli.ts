@@ -2,7 +2,22 @@
 
 import * as ansis from 'ansis'
 
-const AVATAR_COLORS: Record<string, string> = {
+// Layout constants
+const AVATAR_SIZE = 9
+const TEXT_WIDTH_WITH_AVATAR = 44
+const TEXT_WIDTH_WITHOUT_AVATAR = 56
+
+// ANSI escape sequence patterns
+// eslint-disable-next-line no-control-regex
+const ANSI_COLOR_REGEX = /\x1B\[[0-9;]*m/g
+// eslint-disable-next-line no-control-regex
+const OSC8_HYPERLINK_REGEX = /\x1B\]8;;[^\x1B]*\x1B\\/g
+
+type PixelChar = '_' | 'h' | 's' | 'e' | 'm' | 'b' | 'f'
+type AvatarLines = [string, string, string, string, string]
+
+const AVATAR_COLORS: Record<PixelChar, string | undefined> = {
+  _: undefined,
   h: '#879570', // hair
   s: '#E49D23', // skin
   e: '#916034', // eyes
@@ -11,20 +26,19 @@ const AVATAR_COLORS: Record<string, string> = {
   f: '#C5B999', // feet
 }
 
-// 9x9 pixel grid
-const PIXEL_GRID = [
-  ['_', '_', '_', '_', 'h', 'h', 'h', '_', '_'], // row 0
-  ['_', '_', '_', 'h', 'h', 'h', 'h', 'h', '_'], // row 1
-  ['_', '_', 'e', 's', 'e', 's', 's', 's', '_'], // row 2
-  ['_', '_', '_', 's', 's', 's', 's', 's', '_'], // row 3
-  ['_', '_', '_', 's', 'm', 's', 's', '_', 's'], // row 4
-  ['s', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h'], // row 5
-  ['_', '_', '_', 'h', 'h', 'h', 'h', '_', '_'], // row 6
-  ['_', '_', '_', 'b', 'b', 'b', 'b', '_', '_'], // row 7
-  ['_', '_', 'f', 'f', '_', '_', 'f', 'f', '_'], // row 8
+const PIXEL_GRID: PixelChar[][] = [
+  ['_', '_', '_', '_', 'h', 'h', 'h', '_', '_'],
+  ['_', '_', '_', 'h', 'h', 'h', 'h', 'h', '_'],
+  ['_', '_', 'e', 's', 'e', 's', 's', 's', '_'],
+  ['_', '_', '_', 's', 's', 's', 's', 's', '_'],
+  ['_', '_', '_', 's', 'm', 's', 's', '_', 's'],
+  ['s', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h'],
+  ['_', '_', '_', 'h', 'h', 'h', 'h', '_', '_'],
+  ['_', '_', '_', 'b', 'b', 'b', 'b', '_', '_'],
+  ['_', '_', 'f', 'f', '_', '_', 'f', 'f', '_'],
 ]
 
-const avatar = renderAvatar()
+const [av0, av1, av2, av3, av4] = renderAvatar()
 
 // OSC 8 hyperlink (falls back to plain text if unsupported)
 const link = (url: string, text: string) => `\x1B]8;;${url}\x1B\\${text}\x1B]8;;\x1B\\`
@@ -35,11 +49,11 @@ const lines: [string, string][] = [
   ['', ''],
   [`Hi, I'm ${ansis.bold('Johann')}`, ''],
   ['Developer with an eye for design', ''],
-  ['', avatar[0]!],
-  [`🐙 ${ansis.yellow('GitHub')}    ${link('https://github.com/johannschopplich', 'github.com/johannschopplich')}`, avatar[1]!],
-  [`💼 ${ansis.yellow('LinkedIn')}  ${link('https://www.linkedin.com/in/johann-schopplich/', 'in/johann-schopplich')}`, avatar[2]!],
-  [`🌐 ${ansis.yellow('Web')}       ${link('https://johannschopplich.com', 'johannschopplich.com')}`, avatar[3]!],
-  ['', avatar[4]!],
+  ['', av0],
+  [`🐙 ${ansis.yellow('GitHub')}    ${link('https://github.com/johannschopplich', 'github.com/johannschopplich')}`, av1],
+  [`💼 ${ansis.yellow('LinkedIn')}  ${link('https://www.linkedin.com/in/johann-schopplich/', 'in/johann-schopplich')}`, av2],
+  [`🌐 ${ansis.yellow('Web')}       ${link('https://johannschopplich.com', 'johannschopplich.com')}`, av3],
+  ['', av4],
 ]
 
 // Border color
@@ -56,10 +70,10 @@ console.log(box)
 // Build a line with exact width
 function buildLine(text: string, av: string): string {
   if (av) {
-    const paddedText = padEnd(text, 44)
+    const paddedText = padEnd(text, TEXT_WIDTH_WITH_AVATAR)
     return `${border('┃')}   ${paddedText}   ${av}   ${border('┃')}`
   }
-  return `${border('┃')}   ${padEnd(text, 56)}   ${border('┃')}`
+  return `${border('┃')}   ${padEnd(text, TEXT_WIDTH_WITHOUT_AVATAR)}   ${border('┃')}`
 }
 
 // Pad string to exact visual width
@@ -70,27 +84,25 @@ function padEnd(str: string, width: number): string {
 
 // Calculate visual width of string (strips ANSI codes)
 function visualWidth(str: string): number {
-  const stripped = str
-    // eslint-disable-next-line no-control-regex
-    .replace(/\x1B\[[0-9;]*m/g, '') // CSI color sequences
-    // eslint-disable-next-line no-control-regex
-    .replace(/\x1B\]8;;[^\x1B]*\x1B\\/g, '') // OSC 8 hyperlinks
-  return stripped.length
+  const sanitizedStr = str
+    .replace(ANSI_COLOR_REGEX, '')
+    .replace(OSC8_HYPERLINK_REGEX, '')
+  return sanitizedStr.length
 }
 
 // Render avatar as 5 terminal lines (exactly 9 chars wide each)
-function renderAvatar(): string[] {
+function renderAvatar(): AvatarLines {
   const lines: string[] = []
-  for (let row = 0; row < 9; row += 2) {
+  for (let row = 0; row < AVATAR_SIZE; row += 2) {
     let line = ''
-    for (let col = 0; col < 9; col++) {
+    for (let col = 0; col < AVATAR_SIZE; col++) {
       const top = AVATAR_COLORS[PIXEL_GRID[row]![col]!]
-      const bot = row + 1 < 9 ? AVATAR_COLORS[PIXEL_GRID[row + 1]![col]!] : undefined
+      const bot = row + 1 < AVATAR_SIZE ? AVATAR_COLORS[PIXEL_GRID[row + 1]![col]!] : undefined
       line += renderCell(top, bot)
     }
     lines.push(line)
   }
-  return lines
+  return lines as AvatarLines
 }
 
 // Render a single cell using half-blocks
