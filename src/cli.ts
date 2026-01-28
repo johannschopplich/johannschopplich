@@ -42,13 +42,13 @@ const lines: [string, string][] = [
   ['', avatar[4]!],
 ]
 
-// Border color (primary green from avatar)
-const b = ansis.gray
+// Border color
+const border = ansis.gray
 
 const box = `
-${b('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓')}
+${border('┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓')}
 ${lines.map(([text, av]) => buildLine(text, av)).join('\n')}
-${b('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛')}
+${border('┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛')}
 `
 
 console.log(box)
@@ -57,9 +57,9 @@ console.log(box)
 function buildLine(text: string, av: string): string {
   if (av) {
     const paddedText = padEnd(text, 44)
-    return `${b('┃')}   ${paddedText}   ${av}   ${b('┃')}`
+    return `${border('┃')}   ${paddedText}   ${av}   ${border('┃')}`
   }
-  return `${b('┃')}   ${padEnd(text, 56)}   ${b('┃')}`
+  return `${border('┃')}   ${padEnd(text, 56)}   ${border('┃')}`
 }
 
 // Pad string to exact visual width
@@ -94,7 +94,7 @@ function renderAvatar(): string[] {
 }
 
 // Render a single cell using half-blocks
-function renderCell(top: string | undefined, bottom: string | undefined): string {
+function renderCell(top?: string, bottom?: string): string {
   if (!top && !bottom)
     return ' '
   if (!top && bottom)
