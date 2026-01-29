@@ -24,7 +24,7 @@
     "dist"
   ],
   "scripts": {
-    "dev": "node --watch --experimental-strip-types --no-warnings src/cli.ts",
+    "dev": "node --watch src/cli.ts",
     "build": "tsdown",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
