@@ -18,11 +18,11 @@ type AvatarLines = [string, string, string, string, string]
 
 const AVATAR_COLORS: Record<PixelChar, string | undefined> = {
   _: undefined,
-  h: '#879570', // hair
+  h: '#849863', // hair
   s: '#E49D23', // skin
   e: '#916034', // eyes
   m: '#EA5514', // mouth
-  b: '#6B7757', // belt
+  b: '#67794b', // belt
   f: '#C5B999', // feet
 }
 
