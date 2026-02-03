@@ -35,9 +35,9 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ### Commercial Plugins
 
-- 🪁 [kirby-copilot](https://kirbycopilot.com): Your everyday AI companion for the Kirby Panel
-- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): Translate your content with DeepL, in the Panel or via CLI commands
-- 🏃 [kirby-seo-audit](https://kirbyseo.com): State-of-the-art SEO analysis for Kirby CMS
+- 🪁 [kirby-copilot](https://kirby.tools/copilot): AI-powered content generation for Kirby CMS
+- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): DeepL & AI-powered content translation for Kirby CMS
+- 🏃 [kirby-seo-audit](https://kirby.tools/seo-audit): SEO analysis powered by Yoast for Kirby CMS
 
 ### Open Source Plugins
 
