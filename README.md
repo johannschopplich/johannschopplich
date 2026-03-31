@@ -1,4 +1,4 @@
-<img align="right" src="./.github/johann.svg" width="52" />
+<img align="right" src="./.github/johann.svg" width="52" alt="Johann Schopplich" />
 
 # Hi, I'm Johann.
 
