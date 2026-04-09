@@ -25,9 +25,8 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ## Libraries
 
+- 🧪 [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): Testing toolkit for Nitro full-stack servers
 - 🎨 [@unocss/cli](https://github.com/unocss/unocss/tree/main/packages-engine/cli): The CLI for UnoCSS. A perfect fit for traditional backends.
-- 🧪 [nitro-test-utils](https://github.com/johannschopplich/nitro-test-utils): Testing environment and utilities for Nitro
-- 🧬 [utilful](https://github.com/johannschopplich/utilful): A collection of TypeScript utilities
 - 🆙 [kirbyup](https://github.com/johannschopplich/kirbyup): Official bundler for Kirby Panel plugins
 - 🎛️ [kirbyuse](https://github.com/johannschopplich/kirbyuse): Collection of Vue Composition utilities and typed `window.panel` for Kirby CMS
 
