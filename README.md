@@ -8,7 +8,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ## Universal Tooling
 
-- 🎒 [toon](https://github.com/johannschopplich/toon): Token-Oriented Object Notation (TOON) – Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK.
+- 🎒 [toon](https://github.com/johannschopplich/toon): Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks..
 - 🍷 [apiful](https://github.com/johannschopplich/apiful): Extensible & type-safe API tooling – generated OpenAPI clients and server-side utilities, for any JavaScript runtime
 - 📐 [tokenx](https://github.com/johannschopplich/tokenx): Fast token estimation at 96% accuracy of a full tokenizer in a 2kB bundle
 - 🪧 [unlazy](https://github.com/johannschopplich/unlazy): Universal lazy loading library for placeholder images leveraging native browser APIs
