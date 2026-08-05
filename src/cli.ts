@@ -2,12 +2,10 @@
 
 import * as ansis from 'ansis'
 
-// Layout constants
 const AVATAR_SIZE = 9
 const TEXT_WIDTH_WITH_AVATAR = 44
 const TEXT_WIDTH_WITHOUT_AVATAR = 56
 
-// ANSI escape sequence patterns
 // eslint-disable-next-line no-control-regex
 const ANSI_COLOR_REGEX = /\x1B\[[0-9;]*m/g
 // eslint-disable-next-line no-control-regex
@@ -40,11 +38,11 @@ const PIXEL_GRID: PixelChar[][] = [
 
 const [av0, av1, av2, av3, av4] = renderAvatar()
 
-// OSC 8 hyperlink (falls back to plain text if unsupported)
+// Renders an OSC 8 hyperlink, falling back to plain text where unsupported.
 const link = (url: string, text: string) => `\x1B]8;;${url}\x1B\\${text}\x1B]8;;\x1B\\`
 
-// Content lines: [text, avatarLine or '']
-// Avatar aligned to bottom (ending with feet below Web link)
+// Content lines, each pairing text with an avatar line or ''.
+// The avatar is aligned to the bottom, ending with feet below the Web link.
 const lines: [string, string][] = [
   ['', ''],
   [`Hi, I'm ${ansis.bold('Johann')}`, ''],
@@ -56,7 +54,6 @@ const lines: [string, string][] = [
   ['', av4],
 ]
 
-// Border color
 const border = ansis.gray
 
 const box = `
@@ -67,7 +64,6 @@ ${border('┗━━━━━━━━━━━━━━━━━━━━━━�
 
 console.log(box)
 
-// Build a line with exact width
 function buildLine(text: string, av: string): string {
   if (av) {
     const paddedText = padEnd(text, TEXT_WIDTH_WITH_AVATAR)
@@ -76,13 +72,12 @@ function buildLine(text: string, av: string): string {
   return `${border('┃')}   ${padEnd(text, TEXT_WIDTH_WITHOUT_AVATAR)}   ${border('┃')}`
 }
 
-// Pad string to exact visual width
 function padEnd(str: string, width: number): string {
   const currentWidth = visualWidth(str)
   return str + ' '.repeat(Math.max(0, width - currentWidth))
 }
 
-// Calculate visual width of string (strips ANSI codes)
+// Calculates the visual width of a string, ignoring ANSI escape codes.
 function visualWidth(str: string): number {
   const sanitizedStr = str
     .replace(ANSI_COLOR_REGEX, '')
@@ -90,7 +85,7 @@ function visualWidth(str: string): number {
   return sanitizedStr.length
 }
 
-// Render avatar as 5 terminal lines (exactly 9 chars wide each)
+// Renders the avatar as 5 terminal lines, each exactly 9 characters wide.
 function renderAvatar(): AvatarLines {
   const lines: string[] = []
   for (let row = 0; row < AVATAR_SIZE; row += 2) {
@@ -105,7 +100,7 @@ function renderAvatar(): AvatarLines {
   return lines as AvatarLines
 }
 
-// Render a single cell using half-blocks
+// Renders a single cell using half-blocks.
 function renderCell(top?: string, bottom?: string): string {
   if (!top && !bottom)
     return ' '
@@ -113,6 +108,6 @@ function renderCell(top?: string, bottom?: string): string {
     return ansis.hex(bottom)('▄')
   if (top && !bottom)
     return ansis.hex(top)('▀')
-  // Both colors present: use ▄ with bg=top, fg=bottom
+  // Both colors present: use ▄ with bg=top, fg=bottom.
   return ansis.bgHex(top!).hex(bottom!)('▄')
 }
