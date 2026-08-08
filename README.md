@@ -17,11 +17,11 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 ## Nuxt & Vue
 
 - 🎟️ [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): Plausible Analytics integration for Nuxt
-- 🐬 [nuxt-api-party](https://nuxt-api-party.byjohann.dev): Securely connect to any API with a server proxy and generated composables
-- 🦎 [nuxt-prepare](https://nuxt-prepare.byjohann.dev): Build actions for Nuxt
+- 🐬 [nuxt-api-party](https://nuxt-api-party.byjohann.dev): Auto-generated composables for any API, typed from OpenAPI and never exposing your credentials
+- 🦎 [nuxt-prepare](https://nuxt-prepare.byjohann.dev): Run async code at build time
+- 🫧 [nuxt-kirby](https://nuxt-kirby.byjohann.dev): Kirby CMS data in Nuxt, via KQL or the REST API
+- 🔸 [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): Google Analytics, Google Ads and Consent Mode v2 for Nuxt
 - 🪿 [nuxt-vitalizer](https://github.com/johannschopplich/nuxt-vitalizer): Instantly better LCP scores in Google Lighthouse
-- 🫧 [nuxt-kirby](https://nuxt-kirby.byjohann.dev): Kirby CMS integration for Nuxt with KQL support
-- 🔸 [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): Google Analytics & Ads integration made easy
 
 ## Libraries
 
