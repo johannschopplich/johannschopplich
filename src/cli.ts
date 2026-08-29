@@ -45,8 +45,8 @@ const link = (url: string, text: string) => `\x1B]8;;${url}\x1B\\${text}\x1B]8;;
 // The avatar is aligned to the bottom, ending with feet below the Web link.
 const lines: [string, string][] = [
   ['', ''],
-  [`Hi, I'm ${ansis.bold('Johann')}`, ''],
-  ['Developer with an eye for design', ''],
+  [`Hi, I'm ${ansis.bold('Johann')}.`, ''],
+  ['Developer with an eye for design.', ''],
   ['', av0],
   [`🐙 ${ansis.yellow('GitHub')}    ${link('https://github.com/johannschopplich', 'github.com/johannschopplich')}`, av1],
   [`💼 ${ansis.yellow('LinkedIn')}  ${link('https://www.linkedin.com/in/johann-schopplich/', 'in/johann-schopplich')}`, av2],
