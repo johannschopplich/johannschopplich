@@ -35,15 +35,16 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ### Commercial Plugins
 
-- 🪁 [kirby-copilot](https://kirby.tools/copilot): AI-powered content generation for Kirby CMS
-- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): DeepL & AI-powered content translation for Kirby CMS
-- 🏃 [kirby-seo-audit](https://kirby.tools/seo-audit): SEO analysis powered by Yoast for Kirby CMS
+- 🪁 [kirby-copilot](https://kirby.tools/copilot): Generate with AI, from one field to entire layouts
+- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): DeepL and AI translation, in the Panel or from the CLI
+- 🏃 [kirby-seo-audit](https://kirby.tools/seo-audit): Yoast SEO and readability checks, graded in the Panel
+- 🪩 [kirby-live-preview](https://kirby.tools/live-preview): See unsaved changes live, on any screen size
 
 ### Open Source Plugins
 
 - 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): Kirby Panel plugin for search engine result page previews
-- 🧭 [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): Sidebar content navigation plugin for the Kirby Panel
-- 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): Kirby, but headless first with bearer token authentication and KQL utilities
+- 🧭 [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): Jump to any field or block from a sidebar
+- 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): Bearer auth, KQL, JSON templates, API builder
 
 ### Starters & Templates
 
