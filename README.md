@@ -42,7 +42,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ### Open Source Plugins
 
-- 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): Kirby Panel plugin for search engine result page previews
+- 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): The Google result for the page you edit, drawn as you type
 - 🧭 [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): Jump to any field or block from a sidebar
 - 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): Bearer auth, KQL, JSON templates, API builder
 
