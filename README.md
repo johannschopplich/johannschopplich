@@ -44,7 +44,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 - 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): The Google result for the page you edit, drawn as you type
 - 🧭 [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): Jump to any field or block from a sidebar
-- 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): Bearer auth, KQL, JSON templates, API builder
+- 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): JSON pages and KQL queries, served behind one bearer token
 
 ### Starters & Templates
 
