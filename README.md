@@ -35,16 +35,16 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 ### Commercial Plugins
 
-- 🪁 [kirby-copilot](https://kirby.tools/copilot): Generate with AI, from one field to entire layouts
-- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): DeepL and AI translation, in the Panel or from the CLI
-- 🏃 [kirby-seo-audit](https://kirby.tools/seo-audit): Yoast SEO and readability checks, graded in the Panel
-- 🪩 [kirby-live-preview](https://kirby.tools/live-preview): See unsaved changes live, on any screen size
+- 🪁 [kirby-copilot](https://kirby.tools/copilot): Generate with AI in the Panel, or connect your agents over MCP
+- 🌐 [kirby-content-translator](https://kirby.tools/content-translator): One click translates a whole page, nested blocks included
+- 🏃 [kirby-seo-audit](https://kirby.tools/seo-audit): Yoast SEO and readability checks before the page goes live
 
 ### Open Source Plugins
 
-- 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): The Google result for the page you edit, drawn as you type
+- 🔍 [kirby-serp-preview](https://github.com/johannschopplich/kirby-serp-preview): See the Google snippet as you type
 - 🧭 [kirby-minimap](https://github.com/johannschopplich/kirby-minimap): Jump to any field or block from a sidebar
 - 🦭 [kirby-headless](https://github.com/johannschopplich/kirby-headless): JSON pages and KQL queries, served behind one bearer token
+- 🍬 [kirby-helpers](https://github.com/johannschopplich/kirby-helpers): Environment variables, meta tags, sitemap, redirects, and Vite
 
 ### Starters & Templates
 
