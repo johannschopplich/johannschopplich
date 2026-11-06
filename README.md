@@ -18,7 +18,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 
 - 🎟️ [@nuxtjs/plausible](https://github.com/nuxt-modules/plausible): Plausible Analytics integration for Nuxt
 - 🔸 [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): Google Analytics, Google Ads and Consent Mode v2 for Nuxt
-- 🐬 [nuxt-api-party](https://nuxt-api-party.byjohann.dev): Auto-generated composables for any API, typed from OpenAPI and never exposing your credentials
+- 🐬 [nuxt-api-party](https://nuxt-api-party.byjohann.dev): Auto-generated composables for any API, typed from OpenAPI, with your credentials kept on the server
 - 🫧 [nuxt-kirby](https://nuxt-kirby.byjohann.dev): Kirby CMS data in Nuxt, via KQL or the REST API
 - 🦎 [nuxt-prepare](https://nuxt-prepare.byjohann.dev): Run async code at build time
 - 🪿 [nuxt-vitalizer](https://github.com/johannschopplich/nuxt-vitalizer): Better Largest Contentful Paint scores in Google Lighthouse
