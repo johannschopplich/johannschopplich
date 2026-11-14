@@ -20,7 +20,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 - 🔸 [nuxt-gtag](https://github.com/johannschopplich/nuxt-gtag): Google Analytics, Google Ads and Consent Mode v2 for Nuxt
 - 🐬 [nuxt-api-party](https://nuxt-api-party.byjohann.dev): Auto-generated composables for any API, typed from OpenAPI, with your credentials kept on the server
 - 🫧 [nuxt-kirby](https://nuxt-kirby.byjohann.dev): Kirby CMS data in Nuxt, via KQL or the REST API
-- 🦎 [nuxt-prepare](https://nuxt-prepare.byjohann.dev): Fetch data once when Nuxt builds, then import it anywhere, fully typed
+- 🦎 [nuxt-prepare](https://nuxt-prepare.byjohann.dev): Turn API responses into typed imports when Nuxt builds
 - 🪿 [nuxt-vitalizer](https://github.com/johannschopplich/nuxt-vitalizer): Better Largest Contentful Paint scores in Google Lighthouse
 
 ## Libraries
