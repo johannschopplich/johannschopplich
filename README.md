@@ -11,7 +11,7 @@ I'm a self-taught developer who went from pharmacy to code. I learn best by buil
 - 🎒 [TOON](https://github.com/johannschopplich/toon): Token-Oriented Object Notation – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.
 - 📐 [tokenx](https://github.com/johannschopplich/tokenx): Fast token estimation with 95%+ average accuracy in a 2kB bundle
 - 🍷 [apiful](https://github.com/johannschopplich/apiful): Extensible & type-safe API tooling – generated OpenAPI clients and server-side utilities, for any JavaScript runtime
-- 🪧 [unlazy](https://github.com/johannschopplich/unlazy): Universal lazy loading library for placeholder images leveraging native browser APIs
+- 🪧 [unlazy](https://github.com/johannschopplich/unlazy): Native image lazy loading with BlurHash and ThumbHash placeholders – vanilla JS, Vue, React, Svelte, Solid and Nuxt
 - 📄 [unpdf](https://github.com/unjs/unpdf): PDF extraction and rendering across all JavaScript runtimes
 
 ## Nuxt & Vue
